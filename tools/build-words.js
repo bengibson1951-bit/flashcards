@@ -3,6 +3,7 @@ import { writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { UNITS, WORDS } from './words-source.js';
+import { NO_IMAGE } from './image-prompts.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -26,12 +27,14 @@ for (const unit of UNITS) {
     if (ids.has(id)) throw new Error(`duplicate id ${id}`);
     ids.add(id);
     const w = { id, fr, article, en, unit: unit.id, rank: rank++ };
-    if (emoji) w.emoji = emoji;
+    // Abstract words are not pictured at all: emoji as a prompt confuses more than it helps.
+    if (emoji && !NO_IMAGE.has(id)) w.emoji = emoji;
     if (existsSync(join(root, 'audio', `${id}.mp3`))) w.audio = true;
+    if (existsSync(join(root, 'img', `${id}.webp`))) w.image = true;
     words.push(w);
   }
 }
 
 const out = { units: UNITS, words };
 writeFileSync(join(root, 'words.json'), JSON.stringify(out, null, 1) + '\n');
-console.log(`wrote ${words.length} words, ${words.filter((w) => w.audio).length} with audio`);
+console.log(`wrote ${words.length} words, ${words.filter((w) => w.audio).length} with audio, ${words.filter((w) => w.image).length} with images`);

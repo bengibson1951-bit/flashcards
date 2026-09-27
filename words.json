@@ -125,8 +125,7 @@
    "article": null,
    "en": "yes",
    "unit": 1,
-   "rank": 6,
-   "emoji": "👍"
+   "rank": 6
   },
   {
    "id": "non",
@@ -134,8 +133,7 @@
    "article": null,
    "en": "no",
    "unit": 1,
-   "rank": 7,
-   "emoji": "👎"
+   "rank": 7
   },
   {
    "id": "merci",
@@ -161,8 +159,7 @@
    "article": null,
    "en": "you're welcome",
    "unit": 1,
-   "rank": 10,
-   "emoji": "😊"
+   "rank": 10
   },
   {
    "id": "pardon",
@@ -170,8 +167,7 @@
    "article": null,
    "en": "sorry / excuse me",
    "unit": 1,
-   "rank": 11,
-   "emoji": "😬"
+   "rank": 11
   },
   {
    "id": "excusez-moi",
@@ -179,8 +175,7 @@
    "article": null,
    "en": "excuse me",
    "unit": 1,
-   "rank": 12,
-   "emoji": "🙇"
+   "rank": 12
   },
   {
    "id": "ca-va",
@@ -188,8 +183,7 @@
    "article": null,
    "en": "how are you?",
    "unit": 1,
-   "rank": 13,
-   "emoji": "🤔"
+   "rank": 13
   },
   {
    "id": "ca-va-bien",
@@ -197,8 +191,7 @@
    "article": null,
    "en": "I'm fine",
    "unit": 1,
-   "rank": 14,
-   "emoji": "😃"
+   "rank": 14
   },
   {
    "id": "je",
@@ -206,8 +199,7 @@
    "article": null,
    "en": "I",
    "unit": 1,
-   "rank": 15,
-   "emoji": "🙋"
+   "rank": 15
   },
   {
    "id": "tu",
@@ -215,8 +207,7 @@
    "article": null,
    "en": "you",
    "unit": 1,
-   "rank": 16,
-   "emoji": "👉"
+   "rank": 16
   },
   {
    "id": "il",
@@ -224,8 +215,7 @@
    "article": null,
    "en": "he",
    "unit": 1,
-   "rank": 17,
-   "emoji": "👦"
+   "rank": 17
   },
   {
    "id": "elle",
@@ -233,8 +223,7 @@
    "article": null,
    "en": "she",
    "unit": 1,
-   "rank": 18,
-   "emoji": "👧"
+   "rank": 18
   },
   {
    "id": "nous",
@@ -242,8 +231,7 @@
    "article": null,
    "en": "we",
    "unit": 1,
-   "rank": 19,
-   "emoji": "👫"
+   "rank": 19
   },
   {
    "id": "vous",
@@ -251,8 +239,7 @@
    "article": null,
    "en": "you (plural / polite)",
    "unit": 1,
-   "rank": 20,
-   "emoji": "👥"
+   "rank": 20
   },
   {
    "id": "ils",
@@ -260,8 +247,7 @@
    "article": null,
    "en": "they",
    "unit": 1,
-   "rank": 21,
-   "emoji": "👬"
+   "rank": 21
   },
   {
    "id": "je-m-appelle",
@@ -269,8 +255,7 @@
    "article": null,
    "en": "my name is",
    "unit": 1,
-   "rank": 22,
-   "emoji": "🏷️"
+   "rank": 22
   },
   {
    "id": "comment",
@@ -278,8 +263,7 @@
    "article": null,
    "en": "how",
    "unit": 1,
-   "rank": 23,
-   "emoji": "❓"
+   "rank": 23
   },
   {
    "id": "quoi",
@@ -287,8 +271,7 @@
    "article": null,
    "en": "what",
    "unit": 1,
-   "rank": 24,
-   "emoji": "❓"
+   "rank": 24
   },
   {
    "id": "ou",
@@ -296,8 +279,7 @@
    "article": null,
    "en": "where",
    "unit": 1,
-   "rank": 25,
-   "emoji": "📍"
+   "rank": 25
   },
   {
    "id": "qui",
@@ -305,8 +287,7 @@
    "article": null,
    "en": "who",
    "unit": 1,
-   "rank": 26,
-   "emoji": "👤"
+   "rank": 26
   },
   {
    "id": "quand",
@@ -314,8 +295,7 @@
    "article": null,
    "en": "when",
    "unit": 1,
-   "rank": 27,
-   "emoji": "⏰"
+   "rank": 27
   },
   {
    "id": "pourquoi",
@@ -323,8 +303,7 @@
    "article": null,
    "en": "why",
    "unit": 1,
-   "rank": 28,
-   "emoji": "🤷"
+   "rank": 28
   },
   {
    "id": "parce-que",
@@ -332,8 +311,7 @@
    "article": null,
    "en": "because",
    "unit": 1,
-   "rank": 29,
-   "emoji": "💡"
+   "rank": 29
   },
   {
    "id": "et",
@@ -341,8 +319,7 @@
    "article": null,
    "en": "and",
    "unit": 1,
-   "rank": 30,
-   "emoji": "➕"
+   "rank": 30
   },
   {
    "id": "ou-or",
@@ -350,8 +327,7 @@
    "article": null,
    "en": "or",
    "unit": 1,
-   "rank": 31,
-   "emoji": "🔀"
+   "rank": 31
   },
   {
    "id": "mais",
@@ -359,8 +335,7 @@
    "article": null,
    "en": "but",
    "unit": 1,
-   "rank": 32,
-   "emoji": "↩️"
+   "rank": 32
   },
   {
    "id": "avec",
@@ -368,8 +343,7 @@
    "article": null,
    "en": "with",
    "unit": 1,
-   "rank": 33,
-   "emoji": "🤝"
+   "rank": 33
   },
   {
    "id": "sans",
@@ -377,8 +351,7 @@
    "article": null,
    "en": "without",
    "unit": 1,
-   "rank": 34,
-   "emoji": "🚫"
+   "rank": 34
   },
   {
    "id": "ici",
@@ -386,8 +359,7 @@
    "article": null,
    "en": "here",
    "unit": 1,
-   "rank": 35,
-   "emoji": "📍"
+   "rank": 35
   },
   {
    "id": "la",
@@ -395,8 +367,7 @@
    "article": null,
    "en": "there",
    "unit": 1,
-   "rank": 36,
-   "emoji": "👉"
+   "rank": 36
   },
   {
    "id": "tres",
@@ -404,8 +375,7 @@
    "article": null,
    "en": "very",
    "unit": 1,
-   "rank": 37,
-   "emoji": "💯"
+   "rank": 37
   },
   {
    "id": "beaucoup",
@@ -413,8 +383,7 @@
    "article": null,
    "en": "a lot",
    "unit": 1,
-   "rank": 38,
-   "emoji": "🔝"
+   "rank": 38
   },
   {
    "id": "un-peu",
@@ -422,8 +391,7 @@
    "article": null,
    "en": "a little",
    "unit": 1,
-   "rank": 39,
-   "emoji": "🤏"
+   "rank": 39
   },
   {
    "id": "aussi",
@@ -431,8 +399,7 @@
    "article": null,
    "en": "also / too",
    "unit": 1,
-   "rank": 40,
-   "emoji": "➕"
+   "rank": 40
   },
   {
    "id": "maintenant",
@@ -440,8 +407,7 @@
    "article": null,
    "en": "now",
    "unit": 1,
-   "rank": 41,
-   "emoji": "⏱️"
+   "rank": 41
   },
   {
    "id": "toujours",
@@ -449,8 +415,7 @@
    "article": null,
    "en": "always",
    "unit": 1,
-   "rank": 42,
-   "emoji": "♾️"
+   "rank": 42
   },
   {
    "id": "jamais",
@@ -458,8 +423,7 @@
    "article": null,
    "en": "never",
    "unit": 1,
-   "rank": 43,
-   "emoji": "🚫"
+   "rank": 43
   },
   {
    "id": "peut-etre",
@@ -467,8 +431,7 @@
    "article": null,
    "en": "maybe",
    "unit": 1,
-   "rank": 44,
-   "emoji": "🤷"
+   "rank": 44
   },
   {
    "id": "d-accord",
@@ -476,8 +439,7 @@
    "article": null,
    "en": "okay / agreed",
    "unit": 1,
-   "rank": 45,
-   "emoji": "👌"
+   "rank": 45
   },
   {
    "id": "bienvenue",
@@ -485,8 +447,7 @@
    "article": null,
    "en": "welcome",
    "unit": 1,
-   "rank": 46,
-   "emoji": "🎉"
+   "rank": 46
   },
   {
    "id": "a-bientot",
@@ -494,8 +455,7 @@
    "article": null,
    "en": "see you soon",
    "unit": 1,
-   "rank": 47,
-   "emoji": "👋"
+   "rank": 47
   },
   {
    "id": "bonne-chance",
@@ -503,8 +463,7 @@
    "article": null,
    "en": "good luck",
    "unit": 1,
-   "rank": 48,
-   "emoji": "🍀"
+   "rank": 48
   },
   {
    "id": "joyeux-anniversaire",
@@ -521,8 +480,7 @@
    "article": null,
    "en": "I don't know",
    "unit": 1,
-   "rank": 50,
-   "emoji": "🤷"
+   "rank": 50
   },
   {
    "id": "je-ne-comprends-pas",
@@ -530,8 +488,7 @@
    "article": null,
    "en": "I don't understand",
    "unit": 1,
-   "rank": 51,
-   "emoji": "😕"
+   "rank": 51
   },
   {
    "id": "monsieur",
@@ -764,8 +721,7 @@
    "article": "les",
    "en": "people",
    "unit": 2,
-   "rank": 77,
-   "emoji": "👥"
+   "rank": 77
   },
   {
    "id": "nom",
@@ -773,8 +729,7 @@
    "article": "le",
    "en": "name",
    "unit": 2,
-   "rank": 78,
-   "emoji": "🏷️"
+   "rank": 78
   },
   {
    "id": "age",
@@ -782,8 +737,7 @@
    "article": "l'",
    "en": "age",
    "unit": 2,
-   "rank": 79,
-   "emoji": "🎂"
+   "rank": 79
   },
   {
    "id": "voisin",
@@ -864,7 +818,8 @@
    "en": "dog",
    "unit": 3,
    "rank": 88,
-   "emoji": "🐕"
+   "emoji": "🐕",
+   "image": true
   },
   {
    "id": "chat",
@@ -1754,8 +1709,7 @@
    "article": "la",
    "en": "colour",
    "unit": 5,
-   "rank": 187,
-   "emoji": "🎨"
+   "rank": 187
   },
   {
    "id": "rouge",
@@ -1880,8 +1834,7 @@
    "article": null,
    "en": "light (colour)",
    "unit": 5,
-   "rank": 201,
-   "emoji": "🌕"
+   "rank": 201
   },
   {
    "id": "fonce",
@@ -1889,8 +1842,7 @@
    "article": null,
    "en": "dark (colour)",
    "unit": 5,
-   "rank": 202,
-   "emoji": "🌑"
+   "rank": 202
   },
   {
    "id": "multicolore",
@@ -1907,8 +1859,7 @@
    "article": "le",
    "en": "number",
    "unit": 6,
-   "rank": 204,
-   "emoji": "🔢"
+   "rank": 204
   },
   {
    "id": "zero",
@@ -1916,8 +1867,7 @@
    "article": null,
    "en": "zero",
    "unit": 6,
-   "rank": 205,
-   "emoji": "0️⃣"
+   "rank": 205
   },
   {
    "id": "un",
@@ -1925,8 +1875,7 @@
    "article": null,
    "en": "one",
    "unit": 6,
-   "rank": 206,
-   "emoji": "1️⃣"
+   "rank": 206
   },
   {
    "id": "deux",
@@ -1934,8 +1883,7 @@
    "article": null,
    "en": "two",
    "unit": 6,
-   "rank": 207,
-   "emoji": "2️⃣"
+   "rank": 207
   },
   {
    "id": "trois",
@@ -1943,8 +1891,7 @@
    "article": null,
    "en": "three",
    "unit": 6,
-   "rank": 208,
-   "emoji": "3️⃣"
+   "rank": 208
   },
   {
    "id": "quatre",
@@ -1952,8 +1899,7 @@
    "article": null,
    "en": "four",
    "unit": 6,
-   "rank": 209,
-   "emoji": "4️⃣"
+   "rank": 209
   },
   {
    "id": "cinq",
@@ -1961,8 +1907,7 @@
    "article": null,
    "en": "five",
    "unit": 6,
-   "rank": 210,
-   "emoji": "5️⃣"
+   "rank": 210
   },
   {
    "id": "six",
@@ -1970,8 +1915,7 @@
    "article": null,
    "en": "six",
    "unit": 6,
-   "rank": 211,
-   "emoji": "6️⃣"
+   "rank": 211
   },
   {
    "id": "sept",
@@ -1979,8 +1923,7 @@
    "article": null,
    "en": "seven",
    "unit": 6,
-   "rank": 212,
-   "emoji": "7️⃣"
+   "rank": 212
   },
   {
    "id": "huit",
@@ -1988,8 +1931,7 @@
    "article": null,
    "en": "eight",
    "unit": 6,
-   "rank": 213,
-   "emoji": "8️⃣"
+   "rank": 213
   },
   {
    "id": "neuf",
@@ -1997,8 +1939,7 @@
    "article": null,
    "en": "nine",
    "unit": 6,
-   "rank": 214,
-   "emoji": "9️⃣"
+   "rank": 214
   },
   {
    "id": "dix",
@@ -2006,8 +1947,7 @@
    "article": null,
    "en": "ten",
    "unit": 6,
-   "rank": 215,
-   "emoji": "🔟"
+   "rank": 215
   },
   {
    "id": "onze",
@@ -2119,8 +2059,7 @@
    "article": null,
    "en": "hundred",
    "unit": 6,
-   "rank": 229,
-   "emoji": "💯"
+   "rank": 229
   },
   {
    "id": "mille",
@@ -2136,8 +2075,7 @@
    "article": null,
    "en": "first",
    "unit": 6,
-   "rank": 231,
-   "emoji": "🥇"
+   "rank": 231
   },
   {
    "id": "deuxieme",
@@ -2145,8 +2083,7 @@
    "article": null,
    "en": "second",
    "unit": 6,
-   "rank": 232,
-   "emoji": "🥈"
+   "rank": 232
   },
   {
    "id": "troisieme",
@@ -2154,8 +2091,7 @@
    "article": null,
    "en": "third",
    "unit": 6,
-   "rank": 233,
-   "emoji": "🥉"
+   "rank": 233
   },
   {
    "id": "combien",
@@ -2163,8 +2099,7 @@
    "article": null,
    "en": "how many / how much",
    "unit": 6,
-   "rank": 234,
-   "emoji": "🔢"
+   "rank": 234
   },
   {
    "id": "corps",
@@ -3243,8 +3178,7 @@
    "article": "la",
    "en": "question",
    "unit": 10,
-   "rank": 354,
-   "emoji": "❓"
+   "rank": 354
   },
   {
    "id": "reponse",
@@ -3252,8 +3186,7 @@
    "article": "la",
    "en": "answer",
    "unit": 10,
-   "rank": 355,
-   "emoji": "💬"
+   "rank": 355
   },
   {
    "id": "devoir",
@@ -3279,8 +3212,7 @@
    "article": "le",
    "en": "word",
    "unit": 10,
-   "rank": 358,
-   "emoji": "🔤"
+   "rank": 358
   },
   {
    "id": "phrase",
@@ -3288,8 +3220,7 @@
    "article": "la",
    "en": "sentence",
    "unit": 10,
-   "rank": 359,
-   "emoji": "📝"
+   "rank": 359
   },
   {
    "id": "histoire",
@@ -3441,8 +3372,7 @@
    "article": "le",
    "en": "weather / time",
    "unit": 11,
-   "rank": 376,
-   "emoji": "⏳"
+   "rank": 376
   },
   {
    "id": "soleil",
@@ -3621,8 +3551,7 @@
    "article": null,
    "en": "today",
    "unit": 11,
-   "rank": 396,
-   "emoji": "📅"
+   "rank": 396
   },
   {
    "id": "demain",
@@ -3630,8 +3559,7 @@
    "article": null,
    "en": "tomorrow",
    "unit": 11,
-   "rank": 397,
-   "emoji": "➡️"
+   "rank": 397
   },
   {
    "id": "hier",
@@ -3639,8 +3567,7 @@
    "article": null,
    "en": "yesterday",
    "unit": 11,
-   "rank": 398,
-   "emoji": "⬅️"
+   "rank": 398
   },
   {
    "id": "semaine",
@@ -3648,8 +3575,7 @@
    "article": "la",
    "en": "week",
    "unit": 11,
-   "rank": 399,
-   "emoji": "📆"
+   "rank": 399
   },
   {
    "id": "week-end",
@@ -3657,8 +3583,7 @@
    "article": "le",
    "en": "weekend",
    "unit": 11,
-   "rank": 400,
-   "emoji": "🎉"
+   "rank": 400
   },
   {
    "id": "mois",
@@ -3666,8 +3591,7 @@
    "article": "le",
    "en": "month",
    "unit": 11,
-   "rank": 401,
-   "emoji": "🗓️"
+   "rank": 401
   },
   {
    "id": "annee",
@@ -3675,8 +3599,7 @@
    "article": "l'",
    "en": "year",
    "unit": 11,
-   "rank": 402,
-   "emoji": "🎆"
+   "rank": 402
   },
   {
    "id": "heure",
@@ -3684,8 +3607,7 @@
    "article": "l'",
    "en": "hour / time",
    "unit": 11,
-   "rank": 403,
-   "emoji": "🕐"
+   "rank": 403
   },
   {
    "id": "minute",
@@ -3693,8 +3615,7 @@
    "article": "la",
    "en": "minute",
    "unit": 11,
-   "rank": 404,
-   "emoji": "⏱️"
+   "rank": 404
   },
   {
    "id": "lundi",
@@ -3875,8 +3796,7 @@
    "article": "le",
    "en": "world",
    "unit": 11,
-   "rank": 425,
-   "emoji": "🌎"
+   "rank": 425
   },
   {
    "id": "fete",
@@ -3911,8 +3831,7 @@
    "article": null,
    "en": "to be",
    "unit": 12,
-   "rank": 429,
-   "emoji": "🫵"
+   "rank": 429
   },
   {
    "id": "avoir",
@@ -3920,8 +3839,7 @@
    "article": null,
    "en": "to have",
    "unit": 12,
-   "rank": 430,
-   "emoji": "🤲"
+   "rank": 430
   },
   {
    "id": "aller",
@@ -4163,8 +4081,7 @@
    "article": null,
    "en": "to want",
    "unit": 12,
-   "rank": 457,
-   "emoji": "🙏"
+   "rank": 457
   },
   {
    "id": "pouvoir",
@@ -4172,8 +4089,7 @@
    "article": null,
    "en": "to be able / can",
    "unit": 12,
-   "rank": 458,
-   "emoji": "💪"
+   "rank": 458
   },
   {
    "id": "savoir",
@@ -4181,8 +4097,7 @@
    "article": null,
    "en": "to know",
    "unit": 12,
-   "rank": 459,
-   "emoji": "🧠"
+   "rank": 459
   },
   {
    "id": "penser",
@@ -4325,8 +4240,7 @@
    "article": null,
    "en": "good",
    "unit": 12,
-   "rank": 475,
-   "emoji": "👍"
+   "rank": 475
   },
   {
    "id": "mauvais",
@@ -4334,8 +4248,7 @@
    "article": null,
    "en": "bad",
    "unit": 12,
-   "rank": 476,
-   "emoji": "👎"
+   "rank": 476
   },
   {
    "id": "beau",
@@ -4361,8 +4274,7 @@
    "article": null,
    "en": "new",
    "unit": 12,
-   "rank": 479,
-   "emoji": "🆕"
+   "rank": 479
   },
   {
    "id": "vieux",
@@ -4433,8 +4345,7 @@
    "article": null,
    "en": "easy",
    "unit": 12,
-   "rank": 487,
-   "emoji": "😌"
+   "rank": 487
   },
   {
    "id": "difficile",
@@ -4442,8 +4353,7 @@
    "article": null,
    "en": "difficult",
    "unit": 12,
-   "rank": 488,
-   "emoji": "😓"
+   "rank": 488
   },
   {
    "id": "gentil",
@@ -4532,8 +4442,7 @@
    "article": null,
    "en": "left",
    "unit": 12,
-   "rank": 498,
-   "emoji": "⬅️"
+   "rank": 498
   },
   {
    "id": "droite",
@@ -4541,8 +4450,7 @@
    "article": null,
    "en": "right",
    "unit": 12,
-   "rank": 499,
-   "emoji": "➡️"
+   "rank": 499
   },
   {
    "id": "haut",
@@ -4550,8 +4458,7 @@
    "article": null,
    "en": "high / top",
    "unit": 12,
-   "rank": 500,
-   "emoji": "⬆️"
+   "rank": 500
   },
   {
    "id": "bas",
@@ -4559,8 +4466,7 @@
    "article": null,
    "en": "low / bottom",
    "unit": 12,
-   "rank": 501,
-   "emoji": "⬇️"
+   "rank": 501
   },
   {
    "id": "pres",
@@ -4568,8 +4474,7 @@
    "article": null,
    "en": "near",
    "unit": 12,
-   "rank": 502,
-   "emoji": "📍"
+   "rank": 502
   },
   {
    "id": "loin",
@@ -4577,8 +4482,7 @@
    "article": null,
    "en": "far",
    "unit": 12,
-   "rank": 503,
-   "emoji": "🔭"
+   "rank": 503
   }
  ]
 }

@@ -220,3 +220,8 @@ body.studying .bottom-nav { display: none; }
 
 @keyframes pop { from { transform: scale(.94); opacity: .6; } to { transform: none; opacity: 1; } }
 .flashcard.pop { animation: pop .18s ease-out; }
+
+/* Generated pictures */
+.fc-img { width: 180px; height: 180px; border-radius: 18px; object-fit: cover; display: block; margin: 0 auto; }
+.fc-img.small { width: 96px; height: 96px; margin-top: 10px; }
+.word-tile .e img { width: 32px; height: 32px; border-radius: 8px; object-fit: cover; vertical-align: middle; }

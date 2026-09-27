@@ -18,7 +18,7 @@ export function cardsForWord(word, settings) {
   const toggles = settings?.cardTypes ?? {};
   return CARD_TYPES.filter((t) => {
     if (toggles[t] === false) return false;
-    if (t === 'pic' && !word.emoji) return false;
+    if (t === 'pic' && !word.emoji && !word.image) return false;
     return true;
   });
 }

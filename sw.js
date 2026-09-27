@@ -1,4 +1,4 @@
-const CACHE = "flashcards-v1";
+const CACHE = "flashcards-v2";
 const ASSETS = [
   ".",
   "index.html",
@@ -31,10 +31,10 @@ self.addEventListener("activate", (e) => {
   );
 });
 
-// App shell: cache-first. Audio: cache-first, but stored lazily on first play.
+// App shell: cache-first. Audio and images: cache-first, stored lazily on first use.
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
-  if (url.pathname.includes("/audio/")) {
+  if (url.pathname.includes("/audio/") || url.pathname.includes("/img/")) {
     e.respondWith(
       caches.open(CACHE).then(async (c) => {
         const hit = await c.match(e.request);

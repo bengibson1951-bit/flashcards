@@ -248,10 +248,20 @@ function frHtml(w) {
   return `<div class="fc-fr">${esc(displayForm(w))}</div>`;
 }
 
+/** Picture for a word: generated image if present, else emoji, else ''. */
+function picHtml(w, small = false) {
+  if (w.image) return `<img class="fc-img${small ? ' small' : ''}" src="img/${w.id}.webp" alt="" />`;
+  if (w.emoji) return `<div class="fc-emoji${small ? ' small' : ''}">${w.emoji}</div>`;
+  return '';
+}
+function hasPic(w) {
+  return !!(w.image || w.emoji);
+}
+
 function showIntro(w) {
   $('#fc-kind').textContent = `✨ ${t('intro')}`;
   $('#fc-front').innerHTML = `
-    ${w.emoji ? `<div class="fc-emoji">${w.emoji}</div>` : ''}
+    ${picHtml(w)}
     ${frHtml(w)}
     <div class="fc-en">${esc(w.en)}</div>`;
   speak(w);
@@ -279,7 +289,7 @@ function showIntro(w) {
 function showRecall(w, type) {
   $('#fc-kind').textContent = t(`prompt.${type}`);
   let front = '';
-  if (type === 'pic') front = `<div class="fc-emoji">${w.emoji}</div>`;
+  if (type === 'pic') front = picHtml(w);
   if (type === 'fr2en') front = frHtml(w);
   if (type === 'en2fr') front = `<div class="fc-en">${esc(w.en)}</div>`;
   $('#fc-front').innerHTML = front;
@@ -290,8 +300,8 @@ function showRecall(w, type) {
   show.addEventListener('click', () => {
     let back = '';
     if (type === 'pic') back = `${frHtml(w)}<div class="fc-en">${esc(w.en)}</div>`;
-    if (type === 'fr2en') back = `<div class="fc-en">${esc(w.en)}</div>${w.emoji ? `<div class="fc-emoji small">${w.emoji}</div>` : ''}`;
-    if (type === 'en2fr') back = `${frHtml(w)}${w.emoji ? `<div class="fc-emoji small">${w.emoji}</div>` : ''}`;
+    if (type === 'fr2en') back = `<div class="fc-en">${esc(w.en)}</div>${picHtml(w, true)}`;
+    if (type === 'en2fr') back = `${frHtml(w)}${picHtml(w, true)}`;
     $('#fc-back').innerHTML = back;
     $('#fc-back').hidden = false;
     $('#btn-speak').hidden = false;
@@ -338,12 +348,12 @@ function grade(w, type, g) {
 
 function showSpell(w) {
   const prompts = [];
-  if (w.emoji) prompts.push('pic');
+  if (hasPic(w)) prompts.push('pic');
   prompts.push('en', 'audio');
   const mode = prompts[session.spellPrompt++ % prompts.length];
   $('#fc-kind').textContent = mode === 'audio' ? t('prompt.audio') : t('prompt.spell');
   let front = '';
-  if (mode === 'pic') front = `<div class="fc-emoji">${w.emoji}</div>`;
+  if (mode === 'pic') front = picHtml(w);
   if (mode === 'en') front = `<div class="fc-en">${esc(w.en)}</div>`;
   if (mode === 'audio') { front = `<div class="fc-audio-only">👂</div>`; }
   $('#fc-front').innerHTML = front;
@@ -531,7 +541,7 @@ function fillGrid(grid, words) {
     const tile = document.createElement('button');
     const st = wordStatus(w);
     tile.className = 'word-tile' + (state.progress.known[w.id] ? ' known' : '');
-    tile.innerHTML = `<span class="e">${w.emoji ?? '·'}</span><span><span class="fr">${esc(displayForm(w))}</span><span class="en">${esc(w.en)}</span></span>
+    tile.innerHTML = `<span class="e">${w.image ? `<img src="img/${w.id}.webp" alt="" />` : (w.emoji ?? '·')}</span><span><span class="fr">${esc(displayForm(w))}</span><span class="en">${esc(w.en)}</span></span>
       <span class="st ${st}">${state.progress.known[w.id] ? t('known') : t('state.' + st)}</span>`;
     tile.addEventListener('click', () => {
       if (state.progress.known[w.id]) delete state.progress.known[w.id];
