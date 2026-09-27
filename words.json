@@ -81,7 +81,8 @@
    "en": "hello / good day",
    "unit": 1,
    "rank": 1,
-   "emoji": "👋"
+   "emoji": "👋",
+   "image": true
   },
   {
    "id": "salut",
@@ -90,7 +91,8 @@
    "en": "hi",
    "unit": 1,
    "rank": 2,
-   "emoji": "🙋"
+   "emoji": "🙋",
+   "image": true
   },
   {
    "id": "bonsoir",
@@ -99,7 +101,8 @@
    "en": "good evening",
    "unit": 1,
    "rank": 3,
-   "emoji": "🌆"
+   "emoji": "🌆",
+   "image": true
   },
   {
    "id": "bonne-nuit",
@@ -108,7 +111,8 @@
    "en": "good night",
    "unit": 1,
    "rank": 4,
-   "emoji": "🌙"
+   "emoji": "🌙",
+   "image": true
   },
   {
    "id": "au-revoir",
@@ -117,7 +121,8 @@
    "en": "goodbye",
    "unit": 1,
    "rank": 5,
-   "emoji": "👋"
+   "emoji": "👋",
+   "image": true
   },
   {
    "id": "oui",
@@ -142,7 +147,8 @@
    "en": "thank you",
    "unit": 1,
    "rank": 8,
-   "emoji": "🙏"
+   "emoji": "🙏",
+   "image": true
   },
   {
    "id": "s-il-te-plait",
@@ -151,7 +157,8 @@
    "en": "please",
    "unit": 1,
    "rank": 9,
-   "emoji": "🥺"
+   "emoji": "🥺",
+   "image": true
   },
   {
    "id": "de-rien",
@@ -472,7 +479,8 @@
    "en": "happy birthday",
    "unit": 1,
    "rank": 49,
-   "emoji": "🎂"
+   "emoji": "🎂",
+   "image": true
   },
   {
    "id": "je-ne-sais-pas",
@@ -497,7 +505,8 @@
    "en": "sir / Mr",
    "unit": 1,
    "rank": 52,
-   "emoji": "🤵"
+   "emoji": "🤵",
+   "image": true
   },
   {
    "id": "madame",
@@ -506,7 +515,8 @@
    "en": "madam / Mrs",
    "unit": 1,
    "rank": 53,
-   "emoji": "👩"
+   "emoji": "👩",
+   "image": true
   },
   {
    "id": "famille",
@@ -515,7 +525,8 @@
    "en": "family",
    "unit": 2,
    "rank": 54,
-   "emoji": "👨‍👩‍👧‍👦"
+   "emoji": "👨‍👩‍👧‍👦",
+   "image": true
   },
   {
    "id": "mere",
@@ -524,7 +535,8 @@
    "en": "mother",
    "unit": 2,
    "rank": 55,
-   "emoji": "👩"
+   "emoji": "👩",
+   "image": true
   },
   {
    "id": "pere",
@@ -533,7 +545,8 @@
    "en": "father",
    "unit": 2,
    "rank": 56,
-   "emoji": "👨"
+   "emoji": "👨",
+   "image": true
   },
   {
    "id": "maman",
@@ -542,7 +555,8 @@
    "en": "mum",
    "unit": 2,
    "rank": 57,
-   "emoji": "🤱"
+   "emoji": "🤱",
+   "image": true
   },
   {
    "id": "papa",
@@ -551,7 +565,8 @@
    "en": "dad",
    "unit": 2,
    "rank": 58,
-   "emoji": "👨‍🍼"
+   "emoji": "👨‍🍼",
+   "image": true
   },
   {
    "id": "parents",
@@ -560,7 +575,8 @@
    "en": "parents",
    "unit": 2,
    "rank": 59,
-   "emoji": "👫"
+   "emoji": "👫",
+   "image": true
   },
   {
    "id": "soeur",
@@ -569,7 +585,8 @@
    "en": "sister",
    "unit": 2,
    "rank": 60,
-   "emoji": "👧"
+   "emoji": "👧",
+   "image": true
   },
   {
    "id": "frere",
@@ -578,7 +595,8 @@
    "en": "brother",
    "unit": 2,
    "rank": 61,
-   "emoji": "👦"
+   "emoji": "👦",
+   "image": true
   },
   {
    "id": "fille",
@@ -587,7 +605,8 @@
    "en": "girl / daughter",
    "unit": 2,
    "rank": 62,
-   "emoji": "👧"
+   "emoji": "👧",
+   "image": true
   },
   {
    "id": "garcon",
@@ -596,7 +615,8 @@
    "en": "boy",
    "unit": 2,
    "rank": 63,
-   "emoji": "👦"
+   "emoji": "👦",
+   "image": true
   },
   {
    "id": "fils",
@@ -605,7 +625,8 @@
    "en": "son",
    "unit": 2,
    "rank": 64,
-   "emoji": "👦"
+   "emoji": "👦",
+   "image": true
   },
   {
    "id": "bebe",
@@ -614,7 +635,8 @@
    "en": "baby",
    "unit": 2,
    "rank": 65,
-   "emoji": "👶"
+   "emoji": "👶",
+   "image": true
   },
   {
    "id": "grand-mere",
@@ -623,7 +645,8 @@
    "en": "grandmother",
    "unit": 2,
    "rank": 66,
-   "emoji": "👵"
+   "emoji": "👵",
+   "image": true
   },
   {
    "id": "grand-pere",
@@ -632,7 +655,8 @@
    "en": "grandfather",
    "unit": 2,
    "rank": 67,
-   "emoji": "👴"
+   "emoji": "👴",
+   "image": true
   },
   {
    "id": "tante",
@@ -641,7 +665,8 @@
    "en": "aunt",
    "unit": 2,
    "rank": 68,
-   "emoji": "👩‍🦱"
+   "emoji": "👩‍🦱",
+   "image": true
   },
   {
    "id": "oncle",
@@ -650,7 +675,8 @@
    "en": "uncle",
    "unit": 2,
    "rank": 69,
-   "emoji": "👨‍🦱"
+   "emoji": "👨‍🦱",
+   "image": true
   },
   {
    "id": "cousin",
@@ -659,7 +685,8 @@
    "en": "cousin (boy)",
    "unit": 2,
    "rank": 70,
-   "emoji": "🧒"
+   "emoji": "🧒",
+   "image": true
   },
   {
    "id": "cousine",
@@ -668,7 +695,8 @@
    "en": "cousin (girl)",
    "unit": 2,
    "rank": 71,
-   "emoji": "👧"
+   "emoji": "👧",
+   "image": true
   },
   {
    "id": "ami",
@@ -677,7 +705,8 @@
    "en": "friend (boy)",
    "unit": 2,
    "rank": 72,
-   "emoji": "🧑‍🤝‍🧑"
+   "emoji": "🧑‍🤝‍🧑",
+   "image": true
   },
   {
    "id": "amie",
@@ -686,7 +715,8 @@
    "en": "friend (girl)",
    "unit": 2,
    "rank": 73,
-   "emoji": "👭"
+   "emoji": "👭",
+   "image": true
   },
   {
    "id": "homme",
@@ -695,7 +725,8 @@
    "en": "man",
    "unit": 2,
    "rank": 74,
-   "emoji": "👨"
+   "emoji": "👨",
+   "image": true
   },
   {
    "id": "femme",
@@ -704,7 +735,8 @@
    "en": "woman / wife",
    "unit": 2,
    "rank": 75,
-   "emoji": "👩"
+   "emoji": "👩",
+   "image": true
   },
   {
    "id": "enfant",
@@ -713,7 +745,8 @@
    "en": "child",
    "unit": 2,
    "rank": 76,
-   "emoji": "🧒"
+   "emoji": "🧒",
+   "image": true
   },
   {
    "id": "gens",
@@ -746,7 +779,8 @@
    "en": "neighbour",
    "unit": 2,
    "rank": 80,
-   "emoji": "🏘️"
+   "emoji": "🏘️",
+   "image": true
   },
   {
    "id": "docteur",
@@ -755,7 +789,8 @@
    "en": "doctor",
    "unit": 2,
    "rank": 81,
-   "emoji": "🧑‍⚕️"
+   "emoji": "🧑‍⚕️",
+   "image": true
   },
   {
    "id": "professeur",
@@ -764,7 +799,8 @@
    "en": "teacher",
    "unit": 2,
    "rank": 82,
-   "emoji": "🧑‍🏫"
+   "emoji": "🧑‍🏫",
+   "image": true
   },
   {
    "id": "roi",
@@ -773,7 +809,8 @@
    "en": "king",
    "unit": 2,
    "rank": 83,
-   "emoji": "🤴"
+   "emoji": "🤴",
+   "image": true
   },
   {
    "id": "reine",
@@ -782,7 +819,8 @@
    "en": "queen",
    "unit": 2,
    "rank": 84,
-   "emoji": "👸"
+   "emoji": "👸",
+   "image": true
   },
   {
    "id": "princesse",
@@ -791,7 +829,8 @@
    "en": "princess",
    "unit": 2,
    "rank": 85,
-   "emoji": "👸"
+   "emoji": "👸",
+   "image": true
   },
   {
    "id": "prince",
@@ -800,7 +839,8 @@
    "en": "prince",
    "unit": 2,
    "rank": 86,
-   "emoji": "🤴"
+   "emoji": "🤴",
+   "image": true
   },
   {
    "id": "animal",
@@ -809,7 +849,8 @@
    "en": "animal",
    "unit": 3,
    "rank": 87,
-   "emoji": "🐾"
+   "emoji": "🐾",
+   "image": true
   },
   {
    "id": "chien",
@@ -828,7 +869,8 @@
    "en": "cat",
    "unit": 3,
    "rank": 89,
-   "emoji": "🐈"
+   "emoji": "🐈",
+   "image": true
   },
   {
    "id": "chaton",
@@ -837,7 +879,8 @@
    "en": "kitten",
    "unit": 3,
    "rank": 90,
-   "emoji": "🐱"
+   "emoji": "🐱",
+   "image": true
   },
   {
    "id": "chiot",
@@ -846,7 +889,8 @@
    "en": "puppy",
    "unit": 3,
    "rank": 91,
-   "emoji": "🐶"
+   "emoji": "🐶",
+   "image": true
   },
   {
    "id": "cheval",
@@ -855,7 +899,8 @@
    "en": "horse",
    "unit": 3,
    "rank": 92,
-   "emoji": "🐴"
+   "emoji": "🐴",
+   "image": true
   },
   {
    "id": "vache",
@@ -864,7 +909,8 @@
    "en": "cow",
    "unit": 3,
    "rank": 93,
-   "emoji": "🐄"
+   "emoji": "🐄",
+   "image": true
   },
   {
    "id": "cochon",
@@ -873,7 +919,8 @@
    "en": "pig",
    "unit": 3,
    "rank": 94,
-   "emoji": "🐖"
+   "emoji": "🐖",
+   "image": true
   },
   {
    "id": "mouton",
@@ -882,7 +929,8 @@
    "en": "sheep",
    "unit": 3,
    "rank": 95,
-   "emoji": "🐑"
+   "emoji": "🐑",
+   "image": true
   },
   {
    "id": "chevre",
@@ -891,7 +939,8 @@
    "en": "goat",
    "unit": 3,
    "rank": 96,
-   "emoji": "🐐"
+   "emoji": "🐐",
+   "image": true
   },
   {
    "id": "poule",
@@ -900,7 +949,8 @@
    "en": "hen",
    "unit": 3,
    "rank": 97,
-   "emoji": "🐔"
+   "emoji": "🐔",
+   "image": true
   },
   {
    "id": "coq",
@@ -909,7 +959,8 @@
    "en": "rooster",
    "unit": 3,
    "rank": 98,
-   "emoji": "🐓"
+   "emoji": "🐓",
+   "image": true
   },
   {
    "id": "canard",
@@ -918,7 +969,8 @@
    "en": "duck",
    "unit": 3,
    "rank": 99,
-   "emoji": "🦆"
+   "emoji": "🦆",
+   "image": true
   },
   {
    "id": "lapin",
@@ -927,7 +979,8 @@
    "en": "rabbit",
    "unit": 3,
    "rank": 100,
-   "emoji": "🐰"
+   "emoji": "🐰",
+   "image": true
   },
   {
    "id": "souris",
@@ -936,7 +989,8 @@
    "en": "mouse",
    "unit": 3,
    "rank": 101,
-   "emoji": "🐭"
+   "emoji": "🐭",
+   "image": true
   },
   {
    "id": "oiseau",
@@ -945,7 +999,8 @@
    "en": "bird",
    "unit": 3,
    "rank": 102,
-   "emoji": "🐦"
+   "emoji": "🐦",
+   "image": true
   },
   {
    "id": "poisson",
@@ -954,7 +1009,8 @@
    "en": "fish",
    "unit": 3,
    "rank": 103,
-   "emoji": "🐟"
+   "emoji": "🐟",
+   "image": true
   },
   {
    "id": "grenouille",
@@ -963,7 +1019,8 @@
    "en": "frog",
    "unit": 3,
    "rank": 104,
-   "emoji": "🐸"
+   "emoji": "🐸",
+   "image": true
   },
   {
    "id": "tortue",
@@ -972,7 +1029,8 @@
    "en": "turtle",
    "unit": 3,
    "rank": 105,
-   "emoji": "🐢"
+   "emoji": "🐢",
+   "image": true
   },
   {
    "id": "serpent",
@@ -981,7 +1039,8 @@
    "en": "snake",
    "unit": 3,
    "rank": 106,
-   "emoji": "🐍"
+   "emoji": "🐍",
+   "image": true
   },
   {
    "id": "ours",
@@ -990,7 +1049,8 @@
    "en": "bear",
    "unit": 3,
    "rank": 107,
-   "emoji": "🐻"
+   "emoji": "🐻",
+   "image": true
   },
   {
    "id": "loup",
@@ -999,7 +1059,8 @@
    "en": "wolf",
    "unit": 3,
    "rank": 108,
-   "emoji": "🐺"
+   "emoji": "🐺",
+   "image": true
   },
   {
    "id": "renard",
@@ -1008,7 +1069,8 @@
    "en": "fox",
    "unit": 3,
    "rank": 109,
-   "emoji": "🦊"
+   "emoji": "🦊",
+   "image": true
   },
   {
    "id": "lion",
@@ -1017,7 +1079,8 @@
    "en": "lion",
    "unit": 3,
    "rank": 110,
-   "emoji": "🦁"
+   "emoji": "🦁",
+   "image": true
   },
   {
    "id": "tigre",
@@ -1026,7 +1089,8 @@
    "en": "tiger",
    "unit": 3,
    "rank": 111,
-   "emoji": "🐯"
+   "emoji": "🐯",
+   "image": true
   },
   {
    "id": "elephant",
@@ -1035,7 +1099,8 @@
    "en": "elephant",
    "unit": 3,
    "rank": 112,
-   "emoji": "🐘"
+   "emoji": "🐘",
+   "image": true
   },
   {
    "id": "girafe",
@@ -1044,7 +1109,8 @@
    "en": "giraffe",
    "unit": 3,
    "rank": 113,
-   "emoji": "🦒"
+   "emoji": "🦒",
+   "image": true
   },
   {
    "id": "singe",
@@ -1053,7 +1119,8 @@
    "en": "monkey",
    "unit": 3,
    "rank": 114,
-   "emoji": "🐒"
+   "emoji": "🐒",
+   "image": true
   },
   {
    "id": "zebre",
@@ -1062,7 +1129,8 @@
    "en": "zebra",
    "unit": 3,
    "rank": 115,
-   "emoji": "🦓"
+   "emoji": "🦓",
+   "image": true
   },
   {
    "id": "kangourou",
@@ -1071,7 +1139,8 @@
    "en": "kangaroo",
    "unit": 3,
    "rank": 116,
-   "emoji": "🦘"
+   "emoji": "🦘",
+   "image": true
   },
   {
    "id": "pingouin",
@@ -1080,7 +1149,8 @@
    "en": "penguin",
    "unit": 3,
    "rank": 117,
-   "emoji": "🐧"
+   "emoji": "🐧",
+   "image": true
   },
   {
    "id": "dauphin",
@@ -1089,7 +1159,8 @@
    "en": "dolphin",
    "unit": 3,
    "rank": 118,
-   "emoji": "🐬"
+   "emoji": "🐬",
+   "image": true
   },
   {
    "id": "baleine",
@@ -1098,7 +1169,8 @@
    "en": "whale",
    "unit": 3,
    "rank": 119,
-   "emoji": "🐳"
+   "emoji": "🐳",
+   "image": true
   },
   {
    "id": "requin",
@@ -1107,7 +1179,8 @@
    "en": "shark",
    "unit": 3,
    "rank": 120,
-   "emoji": "🦈"
+   "emoji": "🦈",
+   "image": true
   },
   {
    "id": "papillon",
@@ -1116,7 +1189,8 @@
    "en": "butterfly",
    "unit": 3,
    "rank": 121,
-   "emoji": "🦋"
+   "emoji": "🦋",
+   "image": true
   },
   {
    "id": "abeille",
@@ -1125,7 +1199,8 @@
    "en": "bee",
    "unit": 3,
    "rank": 122,
-   "emoji": "🐝"
+   "emoji": "🐝",
+   "image": true
   },
   {
    "id": "fourmi",
@@ -1134,7 +1209,8 @@
    "en": "ant",
    "unit": 3,
    "rank": 123,
-   "emoji": "🐜"
+   "emoji": "🐜",
+   "image": true
   },
   {
    "id": "araignee",
@@ -1143,7 +1219,8 @@
    "en": "spider",
    "unit": 3,
    "rank": 124,
-   "emoji": "🕷️"
+   "emoji": "🕷️",
+   "image": true
   },
   {
    "id": "coccinelle",
@@ -1152,7 +1229,8 @@
    "en": "ladybird",
    "unit": 3,
    "rank": 125,
-   "emoji": "🐞"
+   "emoji": "🐞",
+   "image": true
   },
   {
    "id": "hibou",
@@ -1161,7 +1239,8 @@
    "en": "owl",
    "unit": 3,
    "rank": 126,
-   "emoji": "🦉"
+   "emoji": "🦉",
+   "image": true
   },
   {
    "id": "ecureuil",
@@ -1170,7 +1249,8 @@
    "en": "squirrel",
    "unit": 3,
    "rank": 127,
-   "emoji": "🐿️"
+   "emoji": "🐿️",
+   "image": true
   },
   {
    "id": "herisson",
@@ -1179,7 +1259,8 @@
    "en": "hedgehog",
    "unit": 3,
    "rank": 128,
-   "emoji": "🦔"
+   "emoji": "🦔",
+   "image": true
   },
   {
    "id": "cerf",
@@ -1188,7 +1269,8 @@
    "en": "deer",
    "unit": 3,
    "rank": 129,
-   "emoji": "🦌"
+   "emoji": "🦌",
+   "image": true
   },
   {
    "id": "dinosaure",
@@ -1197,7 +1279,8 @@
    "en": "dinosaur",
    "unit": 3,
    "rank": 130,
-   "emoji": "🦖"
+   "emoji": "🦖",
+   "image": true
   },
   {
    "id": "licorne",
@@ -1206,7 +1289,8 @@
    "en": "unicorn",
    "unit": 3,
    "rank": 131,
-   "emoji": "🦄"
+   "emoji": "🦄",
+   "image": true
   },
   {
    "id": "dragon",
@@ -1215,7 +1299,8 @@
    "en": "dragon",
    "unit": 3,
    "rank": 132,
-   "emoji": "🐉"
+   "emoji": "🐉",
+   "image": true
   },
   {
    "id": "nourriture",
@@ -1224,7 +1309,8 @@
    "en": "food",
    "unit": 4,
    "rank": 133,
-   "emoji": "🍽️"
+   "emoji": "🍽️",
+   "image": true
   },
   {
    "id": "eau",
@@ -1233,7 +1319,8 @@
    "en": "water",
    "unit": 4,
    "rank": 134,
-   "emoji": "💧"
+   "emoji": "💧",
+   "image": true
   },
   {
    "id": "lait",
@@ -1242,7 +1329,8 @@
    "en": "milk",
    "unit": 4,
    "rank": 135,
-   "emoji": "🥛"
+   "emoji": "🥛",
+   "image": true
   },
   {
    "id": "jus",
@@ -1251,7 +1339,8 @@
    "en": "juice",
    "unit": 4,
    "rank": 136,
-   "emoji": "🧃"
+   "emoji": "🧃",
+   "image": true
   },
   {
    "id": "pain",
@@ -1260,7 +1349,8 @@
    "en": "bread",
    "unit": 4,
    "rank": 137,
-   "emoji": "🍞"
+   "emoji": "🍞",
+   "image": true
   },
   {
    "id": "fromage",
@@ -1269,7 +1359,8 @@
    "en": "cheese",
    "unit": 4,
    "rank": 138,
-   "emoji": "🧀"
+   "emoji": "🧀",
+   "image": true
   },
   {
    "id": "beurre",
@@ -1278,7 +1369,8 @@
    "en": "butter",
    "unit": 4,
    "rank": 139,
-   "emoji": "🧈"
+   "emoji": "🧈",
+   "image": true
   },
   {
    "id": "oeuf",
@@ -1287,7 +1379,8 @@
    "en": "egg",
    "unit": 4,
    "rank": 140,
-   "emoji": "🥚"
+   "emoji": "🥚",
+   "image": true
   },
   {
    "id": "pomme",
@@ -1296,7 +1389,8 @@
    "en": "apple",
    "unit": 4,
    "rank": 141,
-   "emoji": "🍎"
+   "emoji": "🍎",
+   "image": true
   },
   {
    "id": "banane",
@@ -1305,7 +1399,8 @@
    "en": "banana",
    "unit": 4,
    "rank": 142,
-   "emoji": "🍌"
+   "emoji": "🍌",
+   "image": true
   },
   {
    "id": "fraise",
@@ -1314,7 +1409,8 @@
    "en": "strawberry",
    "unit": 4,
    "rank": 143,
-   "emoji": "🍓"
+   "emoji": "🍓",
+   "image": true
   },
   {
    "id": "orange",
@@ -1323,7 +1419,8 @@
    "en": "orange",
    "unit": 4,
    "rank": 144,
-   "emoji": "🍊"
+   "emoji": "🍊",
+   "image": true
   },
   {
    "id": "citron",
@@ -1332,7 +1429,8 @@
    "en": "lemon",
    "unit": 4,
    "rank": 145,
-   "emoji": "🍋"
+   "emoji": "🍋",
+   "image": true
   },
   {
    "id": "raisin",
@@ -1341,7 +1439,8 @@
    "en": "grapes",
    "unit": 4,
    "rank": 146,
-   "emoji": "🍇"
+   "emoji": "🍇",
+   "image": true
   },
   {
    "id": "poire",
@@ -1350,7 +1449,8 @@
    "en": "pear",
    "unit": 4,
    "rank": 147,
-   "emoji": "🍐"
+   "emoji": "🍐",
+   "image": true
   },
   {
    "id": "peche",
@@ -1359,7 +1459,8 @@
    "en": "peach",
    "unit": 4,
    "rank": 148,
-   "emoji": "🍑"
+   "emoji": "🍑",
+   "image": true
   },
   {
    "id": "cerise",
@@ -1368,7 +1469,8 @@
    "en": "cherry",
    "unit": 4,
    "rank": 149,
-   "emoji": "🍒"
+   "emoji": "🍒",
+   "image": true
   },
   {
    "id": "pasteque",
@@ -1377,7 +1479,8 @@
    "en": "watermelon",
    "unit": 4,
    "rank": 150,
-   "emoji": "🍉"
+   "emoji": "🍉",
+   "image": true
   },
   {
    "id": "ananas",
@@ -1386,7 +1489,8 @@
    "en": "pineapple",
    "unit": 4,
    "rank": 151,
-   "emoji": "🍍"
+   "emoji": "🍍",
+   "image": true
   },
   {
    "id": "carotte",
@@ -1395,7 +1499,8 @@
    "en": "carrot",
    "unit": 4,
    "rank": 152,
-   "emoji": "🥕"
+   "emoji": "🥕",
+   "image": true
   },
   {
    "id": "tomate",
@@ -1404,7 +1509,8 @@
    "en": "tomato",
    "unit": 4,
    "rank": 153,
-   "emoji": "🍅"
+   "emoji": "🍅",
+   "image": true
   },
   {
    "id": "pomme-de-terre",
@@ -1413,7 +1519,8 @@
    "en": "potato",
    "unit": 4,
    "rank": 154,
-   "emoji": "🥔"
+   "emoji": "🥔",
+   "image": true
   },
   {
    "id": "salade",
@@ -1422,7 +1529,8 @@
    "en": "salad / lettuce",
    "unit": 4,
    "rank": 155,
-   "emoji": "🥗"
+   "emoji": "🥗",
+   "image": true
   },
   {
    "id": "mais-corn",
@@ -1431,7 +1539,8 @@
    "en": "corn",
    "unit": 4,
    "rank": 156,
-   "emoji": "🌽"
+   "emoji": "🌽",
+   "image": true
   },
   {
    "id": "brocoli",
@@ -1440,7 +1549,8 @@
    "en": "broccoli",
    "unit": 4,
    "rank": 157,
-   "emoji": "🥦"
+   "emoji": "🥦",
+   "image": true
   },
   {
    "id": "champignon",
@@ -1449,7 +1559,8 @@
    "en": "mushroom",
    "unit": 4,
    "rank": 158,
-   "emoji": "🍄"
+   "emoji": "🍄",
+   "image": true
   },
   {
    "id": "viande",
@@ -1458,7 +1569,8 @@
    "en": "meat",
    "unit": 4,
    "rank": 159,
-   "emoji": "🥩"
+   "emoji": "🥩",
+   "image": true
   },
   {
    "id": "poulet",
@@ -1467,7 +1579,8 @@
    "en": "chicken (meat)",
    "unit": 4,
    "rank": 160,
-   "emoji": "🍗"
+   "emoji": "🍗",
+   "image": true
   },
   {
    "id": "jambon",
@@ -1476,7 +1589,8 @@
    "en": "ham",
    "unit": 4,
    "rank": 161,
-   "emoji": "🍖"
+   "emoji": "🍖",
+   "image": true
   },
   {
    "id": "riz",
@@ -1485,7 +1599,8 @@
    "en": "rice",
    "unit": 4,
    "rank": 162,
-   "emoji": "🍚"
+   "emoji": "🍚",
+   "image": true
   },
   {
    "id": "pates",
@@ -1494,7 +1609,8 @@
    "en": "pasta",
    "unit": 4,
    "rank": 163,
-   "emoji": "🍝"
+   "emoji": "🍝",
+   "image": true
   },
   {
    "id": "pizza",
@@ -1503,7 +1619,8 @@
    "en": "pizza",
    "unit": 4,
    "rank": 164,
-   "emoji": "🍕"
+   "emoji": "🍕",
+   "image": true
   },
   {
    "id": "soupe",
@@ -1512,7 +1629,8 @@
    "en": "soup",
    "unit": 4,
    "rank": 165,
-   "emoji": "🍲"
+   "emoji": "🍲",
+   "image": true
   },
   {
    "id": "sandwich",
@@ -1521,7 +1639,8 @@
    "en": "sandwich",
    "unit": 4,
    "rank": 166,
-   "emoji": "🥪"
+   "emoji": "🥪",
+   "image": true
   },
   {
    "id": "frites",
@@ -1530,7 +1649,8 @@
    "en": "chips / fries",
    "unit": 4,
    "rank": 167,
-   "emoji": "🍟"
+   "emoji": "🍟",
+   "image": true
   },
   {
    "id": "gateau",
@@ -1539,7 +1659,8 @@
    "en": "cake",
    "unit": 4,
    "rank": 168,
-   "emoji": "🍰"
+   "emoji": "🍰",
+   "image": true
   },
   {
    "id": "chocolat",
@@ -1548,7 +1669,8 @@
    "en": "chocolate",
    "unit": 4,
    "rank": 169,
-   "emoji": "🍫"
+   "emoji": "🍫",
+   "image": true
   },
   {
    "id": "bonbon",
@@ -1557,7 +1679,8 @@
    "en": "sweet / candy",
    "unit": 4,
    "rank": 170,
-   "emoji": "🍬"
+   "emoji": "🍬",
+   "image": true
   },
   {
    "id": "glace",
@@ -1566,7 +1689,8 @@
    "en": "ice cream",
    "unit": 4,
    "rank": 171,
-   "emoji": "🍦"
+   "emoji": "🍦",
+   "image": true
   },
   {
    "id": "biscuit",
@@ -1575,7 +1699,8 @@
    "en": "biscuit / cookie",
    "unit": 4,
    "rank": 172,
-   "emoji": "🍪"
+   "emoji": "🍪",
+   "image": true
   },
   {
    "id": "crepe",
@@ -1584,7 +1709,8 @@
    "en": "pancake",
    "unit": 4,
    "rank": 173,
-   "emoji": "🥞"
+   "emoji": "🥞",
+   "image": true
   },
   {
    "id": "croissant",
@@ -1593,7 +1719,8 @@
    "en": "croissant",
    "unit": 4,
    "rank": 174,
-   "emoji": "🥐"
+   "emoji": "🥐",
+   "image": true
   },
   {
    "id": "sucre",
@@ -1602,7 +1729,8 @@
    "en": "sugar",
    "unit": 4,
    "rank": 175,
-   "emoji": "🍬"
+   "emoji": "🍬",
+   "image": true
   },
   {
    "id": "sel",
@@ -1611,7 +1739,8 @@
    "en": "salt",
    "unit": 4,
    "rank": 176,
-   "emoji": "🧂"
+   "emoji": "🧂",
+   "image": true
   },
   {
    "id": "miel",
@@ -1620,7 +1749,8 @@
    "en": "honey",
    "unit": 4,
    "rank": 177,
-   "emoji": "🍯"
+   "emoji": "🍯",
+   "image": true
   },
   {
    "id": "cafe",
@@ -1629,7 +1759,8 @@
    "en": "coffee",
    "unit": 4,
    "rank": 178,
-   "emoji": "☕"
+   "emoji": "☕",
+   "image": true
   },
   {
    "id": "the",
@@ -1638,7 +1769,8 @@
    "en": "tea",
    "unit": 4,
    "rank": 179,
-   "emoji": "🍵"
+   "emoji": "🍵",
+   "image": true
   },
   {
    "id": "petit-dejeuner",
@@ -1647,7 +1779,8 @@
    "en": "breakfast",
    "unit": 4,
    "rank": 180,
-   "emoji": "🥣"
+   "emoji": "🥣",
+   "image": true
   },
   {
    "id": "dejeuner",
@@ -1656,7 +1789,8 @@
    "en": "lunch",
    "unit": 4,
    "rank": 181,
-   "emoji": "🍱"
+   "emoji": "🍱",
+   "image": true
   },
   {
    "id": "diner",
@@ -1665,7 +1799,8 @@
    "en": "dinner",
    "unit": 4,
    "rank": 182,
-   "emoji": "🍽️"
+   "emoji": "🍽️",
+   "image": true
   },
   {
    "id": "j-ai-faim",
@@ -1674,7 +1809,8 @@
    "en": "I'm hungry",
    "unit": 4,
    "rank": 183,
-   "emoji": "😋"
+   "emoji": "😋",
+   "image": true
   },
   {
    "id": "j-ai-soif",
@@ -1683,7 +1819,8 @@
    "en": "I'm thirsty",
    "unit": 4,
    "rank": 184,
-   "emoji": "🥤"
+   "emoji": "🥤",
+   "image": true
   },
   {
    "id": "delicieux",
@@ -1692,7 +1829,8 @@
    "en": "delicious",
    "unit": 4,
    "rank": 185,
-   "emoji": "😋"
+   "emoji": "😋",
+   "image": true
   },
   {
    "id": "bon-appetit",
@@ -1701,7 +1839,8 @@
    "en": "enjoy your meal",
    "unit": 4,
    "rank": 186,
-   "emoji": "🍴"
+   "emoji": "🍴",
+   "image": true
   },
   {
    "id": "couleur",
@@ -1718,7 +1857,8 @@
    "en": "red",
    "unit": 5,
    "rank": 188,
-   "emoji": "🔴"
+   "emoji": "🔴",
+   "image": true
   },
   {
    "id": "bleu",
@@ -1727,7 +1867,8 @@
    "en": "blue",
    "unit": 5,
    "rank": 189,
-   "emoji": "🔵"
+   "emoji": "🔵",
+   "image": true
   },
   {
    "id": "vert",
@@ -1736,7 +1877,8 @@
    "en": "green",
    "unit": 5,
    "rank": 190,
-   "emoji": "🟢"
+   "emoji": "🟢",
+   "image": true
   },
   {
    "id": "jaune",
@@ -1745,7 +1887,8 @@
    "en": "yellow",
    "unit": 5,
    "rank": 191,
-   "emoji": "🟡"
+   "emoji": "🟡",
+   "image": true
   },
   {
    "id": "orange-orange-colour",
@@ -1754,7 +1897,8 @@
    "en": "orange (colour)",
    "unit": 5,
    "rank": 192,
-   "emoji": "🟠"
+   "emoji": "🟠",
+   "image": true
   },
   {
    "id": "violet",
@@ -1763,7 +1907,8 @@
    "en": "purple",
    "unit": 5,
    "rank": 193,
-   "emoji": "🟣"
+   "emoji": "🟣",
+   "image": true
   },
   {
    "id": "rose",
@@ -1772,7 +1917,8 @@
    "en": "pink",
    "unit": 5,
    "rank": 194,
-   "emoji": "🌸"
+   "emoji": "🌸",
+   "image": true
   },
   {
    "id": "marron",
@@ -1781,7 +1927,8 @@
    "en": "brown",
    "unit": 5,
    "rank": 195,
-   "emoji": "🟤"
+   "emoji": "🟤",
+   "image": true
   },
   {
    "id": "noir",
@@ -1790,7 +1937,8 @@
    "en": "black",
    "unit": 5,
    "rank": 196,
-   "emoji": "⚫"
+   "emoji": "⚫",
+   "image": true
   },
   {
    "id": "blanc",
@@ -1799,7 +1947,8 @@
    "en": "white",
    "unit": 5,
    "rank": 197,
-   "emoji": "⚪"
+   "emoji": "⚪",
+   "image": true
   },
   {
    "id": "gris",
@@ -1808,7 +1957,8 @@
    "en": "grey",
    "unit": 5,
    "rank": 198,
-   "emoji": "🩶"
+   "emoji": "🩶",
+   "image": true
   },
   {
    "id": "dore",
@@ -1817,7 +1967,8 @@
    "en": "golden",
    "unit": 5,
    "rank": 199,
-   "emoji": "🥇"
+   "emoji": "🥇",
+   "image": true
   },
   {
    "id": "argente",
@@ -1826,7 +1977,8 @@
    "en": "silver",
    "unit": 5,
    "rank": 200,
-   "emoji": "🥈"
+   "emoji": "🥈",
+   "image": true
   },
   {
    "id": "clair",
@@ -1851,7 +2003,8 @@
    "en": "multicoloured",
    "unit": 5,
    "rank": 203,
-   "emoji": "🌈"
+   "emoji": "🌈",
+   "image": true
   },
   {
    "id": "nombre",
@@ -2108,7 +2261,8 @@
    "en": "body",
    "unit": 7,
    "rank": 235,
-   "emoji": "🧍"
+   "emoji": "🧍",
+   "image": true
   },
   {
    "id": "tete",
@@ -2117,7 +2271,8 @@
    "en": "head",
    "unit": 7,
    "rank": 236,
-   "emoji": "🗣️"
+   "emoji": "🗣️",
+   "image": true
   },
   {
    "id": "cheveux",
@@ -2126,7 +2281,8 @@
    "en": "hair",
    "unit": 7,
    "rank": 237,
-   "emoji": "💇"
+   "emoji": "💇",
+   "image": true
   },
   {
    "id": "visage",
@@ -2135,7 +2291,8 @@
    "en": "face",
    "unit": 7,
    "rank": 238,
-   "emoji": "🙂"
+   "emoji": "🙂",
+   "image": true
   },
   {
    "id": "oeil",
@@ -2144,7 +2301,8 @@
    "en": "eye",
    "unit": 7,
    "rank": 239,
-   "emoji": "👁️"
+   "emoji": "👁️",
+   "image": true
   },
   {
    "id": "yeux",
@@ -2153,7 +2311,8 @@
    "en": "eyes",
    "unit": 7,
    "rank": 240,
-   "emoji": "👀"
+   "emoji": "👀",
+   "image": true
   },
   {
    "id": "nez",
@@ -2162,7 +2321,8 @@
    "en": "nose",
    "unit": 7,
    "rank": 241,
-   "emoji": "👃"
+   "emoji": "👃",
+   "image": true
   },
   {
    "id": "bouche",
@@ -2171,7 +2331,8 @@
    "en": "mouth",
    "unit": 7,
    "rank": 242,
-   "emoji": "👄"
+   "emoji": "👄",
+   "image": true
   },
   {
    "id": "dent",
@@ -2180,7 +2341,8 @@
    "en": "tooth",
    "unit": 7,
    "rank": 243,
-   "emoji": "🦷"
+   "emoji": "🦷",
+   "image": true
   },
   {
    "id": "langue",
@@ -2189,7 +2351,8 @@
    "en": "tongue / language",
    "unit": 7,
    "rank": 244,
-   "emoji": "👅"
+   "emoji": "👅",
+   "image": true
   },
   {
    "id": "oreille",
@@ -2198,7 +2361,8 @@
    "en": "ear",
    "unit": 7,
    "rank": 245,
-   "emoji": "👂"
+   "emoji": "👂",
+   "image": true
   },
   {
    "id": "cou",
@@ -2207,7 +2371,8 @@
    "en": "neck",
    "unit": 7,
    "rank": 246,
-   "emoji": "🧣"
+   "emoji": "🧣",
+   "image": true
   },
   {
    "id": "epaule",
@@ -2216,7 +2381,8 @@
    "en": "shoulder",
    "unit": 7,
    "rank": 247,
-   "emoji": "🤷"
+   "emoji": "🤷",
+   "image": true
   },
   {
    "id": "bras",
@@ -2225,7 +2391,8 @@
    "en": "arm",
    "unit": 7,
    "rank": 248,
-   "emoji": "💪"
+   "emoji": "💪",
+   "image": true
   },
   {
    "id": "main",
@@ -2234,7 +2401,8 @@
    "en": "hand",
    "unit": 7,
    "rank": 249,
-   "emoji": "✋"
+   "emoji": "✋",
+   "image": true
   },
   {
    "id": "doigt",
@@ -2243,7 +2411,8 @@
    "en": "finger",
    "unit": 7,
    "rank": 250,
-   "emoji": "☝️"
+   "emoji": "☝️",
+   "image": true
   },
   {
    "id": "ventre",
@@ -2252,7 +2421,8 @@
    "en": "tummy / belly",
    "unit": 7,
    "rank": 251,
-   "emoji": "🫃"
+   "emoji": "🫃",
+   "image": true
   },
   {
    "id": "dos",
@@ -2261,7 +2431,8 @@
    "en": "back",
    "unit": 7,
    "rank": 252,
-   "emoji": "🔙"
+   "emoji": "🔙",
+   "image": true
   },
   {
    "id": "jambe",
@@ -2270,7 +2441,8 @@
    "en": "leg",
    "unit": 7,
    "rank": 253,
-   "emoji": "🦵"
+   "emoji": "🦵",
+   "image": true
   },
   {
    "id": "genou",
@@ -2279,7 +2451,8 @@
    "en": "knee",
    "unit": 7,
    "rank": 254,
-   "emoji": "🦵"
+   "emoji": "🦵",
+   "image": true
   },
   {
    "id": "pied",
@@ -2288,7 +2461,8 @@
    "en": "foot",
    "unit": 7,
    "rank": 255,
-   "emoji": "🦶"
+   "emoji": "🦶",
+   "image": true
   },
   {
    "id": "coeur",
@@ -2297,7 +2471,8 @@
    "en": "heart",
    "unit": 7,
    "rank": 256,
-   "emoji": "❤️"
+   "emoji": "❤️",
+   "image": true
   },
   {
    "id": "cerveau",
@@ -2306,7 +2481,8 @@
    "en": "brain",
    "unit": 7,
    "rank": 257,
-   "emoji": "🧠"
+   "emoji": "🧠",
+   "image": true
   },
   {
    "id": "os",
@@ -2315,7 +2491,8 @@
    "en": "bones",
    "unit": 7,
    "rank": 258,
-   "emoji": "🦴"
+   "emoji": "🦴",
+   "image": true
   },
   {
    "id": "sang",
@@ -2324,7 +2501,8 @@
    "en": "blood",
    "unit": 7,
    "rank": 259,
-   "emoji": "🩸"
+   "emoji": "🩸",
+   "image": true
   },
   {
    "id": "peau",
@@ -2333,7 +2511,8 @@
    "en": "skin",
    "unit": 7,
    "rank": 260,
-   "emoji": "🧴"
+   "emoji": "🧴",
+   "image": true
   },
   {
    "id": "j-ai-mal",
@@ -2342,7 +2521,8 @@
    "en": "it hurts",
    "unit": 7,
    "rank": 261,
-   "emoji": "🤕"
+   "emoji": "🤕",
+   "image": true
   },
   {
    "id": "malade",
@@ -2351,7 +2531,8 @@
    "en": "ill / sick",
    "unit": 7,
    "rank": 262,
-   "emoji": "🤒"
+   "emoji": "🤒",
+   "image": true
   },
   {
    "id": "fatigue",
@@ -2360,7 +2541,8 @@
    "en": "tired",
    "unit": 7,
    "rank": 263,
-   "emoji": "😴"
+   "emoji": "😴",
+   "image": true
   },
   {
    "id": "content",
@@ -2369,7 +2551,8 @@
    "en": "happy / pleased",
    "unit": 7,
    "rank": 264,
-   "emoji": "😊"
+   "emoji": "😊",
+   "image": true
   },
   {
    "id": "triste",
@@ -2378,7 +2561,8 @@
    "en": "sad",
    "unit": 7,
    "rank": 265,
-   "emoji": "😢"
+   "emoji": "😢",
+   "image": true
   },
   {
    "id": "en-colere",
@@ -2387,7 +2571,8 @@
    "en": "angry",
    "unit": 7,
    "rank": 266,
-   "emoji": "😠"
+   "emoji": "😠",
+   "image": true
   },
   {
    "id": "peur",
@@ -2396,7 +2581,8 @@
    "en": "fear / scared",
    "unit": 7,
    "rank": 267,
-   "emoji": "😨"
+   "emoji": "😨",
+   "image": true
   },
   {
    "id": "maison",
@@ -2405,7 +2591,8 @@
    "en": "house / home",
    "unit": 8,
    "rank": 268,
-   "emoji": "🏠"
+   "emoji": "🏠",
+   "image": true
   },
   {
    "id": "appartement",
@@ -2414,7 +2601,8 @@
    "en": "flat / apartment",
    "unit": 8,
    "rank": 269,
-   "emoji": "🏢"
+   "emoji": "🏢",
+   "image": true
   },
   {
    "id": "porte",
@@ -2423,7 +2611,8 @@
    "en": "door",
    "unit": 8,
    "rank": 270,
-   "emoji": "🚪"
+   "emoji": "🚪",
+   "image": true
   },
   {
    "id": "fenetre",
@@ -2432,7 +2621,8 @@
    "en": "window",
    "unit": 8,
    "rank": 271,
-   "emoji": "🪟"
+   "emoji": "🪟",
+   "image": true
   },
   {
    "id": "cle",
@@ -2441,7 +2631,8 @@
    "en": "key",
    "unit": 8,
    "rank": 272,
-   "emoji": "🔑"
+   "emoji": "🔑",
+   "image": true
   },
   {
    "id": "chambre",
@@ -2450,7 +2641,8 @@
    "en": "bedroom",
    "unit": 8,
    "rank": 273,
-   "emoji": "🛏️"
+   "emoji": "🛏️",
+   "image": true
   },
   {
    "id": "lit",
@@ -2459,7 +2651,8 @@
    "en": "bed",
    "unit": 8,
    "rank": 274,
-   "emoji": "🛏️"
+   "emoji": "🛏️",
+   "image": true
   },
   {
    "id": "cuisine",
@@ -2468,7 +2661,8 @@
    "en": "kitchen",
    "unit": 8,
    "rank": 275,
-   "emoji": "🍳"
+   "emoji": "🍳",
+   "image": true
   },
   {
    "id": "salon",
@@ -2477,7 +2671,8 @@
    "en": "living room",
    "unit": 8,
    "rank": 276,
-   "emoji": "🛋️"
+   "emoji": "🛋️",
+   "image": true
   },
   {
    "id": "salle-de-bain",
@@ -2486,7 +2681,8 @@
    "en": "bathroom",
    "unit": 8,
    "rank": 277,
-   "emoji": "🛁"
+   "emoji": "🛁",
+   "image": true
   },
   {
    "id": "toilettes",
@@ -2495,7 +2691,8 @@
    "en": "toilet",
    "unit": 8,
    "rank": 278,
-   "emoji": "🚽"
+   "emoji": "🚽",
+   "image": true
   },
   {
    "id": "jardin",
@@ -2504,7 +2701,8 @@
    "en": "garden",
    "unit": 8,
    "rank": 279,
-   "emoji": "🌷"
+   "emoji": "🌷",
+   "image": true
   },
   {
    "id": "escalier",
@@ -2513,7 +2711,8 @@
    "en": "stairs",
    "unit": 8,
    "rank": 280,
-   "emoji": "🪜"
+   "emoji": "🪜",
+   "image": true
   },
   {
    "id": "table",
@@ -2522,7 +2721,8 @@
    "en": "table",
    "unit": 8,
    "rank": 281,
-   "emoji": "🪑"
+   "emoji": "🪑",
+   "image": true
   },
   {
    "id": "chaise",
@@ -2531,7 +2731,8 @@
    "en": "chair",
    "unit": 8,
    "rank": 282,
-   "emoji": "🪑"
+   "emoji": "🪑",
+   "image": true
   },
   {
    "id": "canape",
@@ -2540,7 +2741,8 @@
    "en": "sofa",
    "unit": 8,
    "rank": 283,
-   "emoji": "🛋️"
+   "emoji": "🛋️",
+   "image": true
   },
   {
    "id": "lampe",
@@ -2549,7 +2751,8 @@
    "en": "lamp",
    "unit": 8,
    "rank": 284,
-   "emoji": "💡"
+   "emoji": "💡",
+   "image": true
   },
   {
    "id": "television",
@@ -2558,7 +2761,8 @@
    "en": "television",
    "unit": 8,
    "rank": 285,
-   "emoji": "📺"
+   "emoji": "📺",
+   "image": true
   },
   {
    "id": "telephone",
@@ -2567,7 +2771,8 @@
    "en": "phone",
    "unit": 8,
    "rank": 286,
-   "emoji": "📱"
+   "emoji": "📱",
+   "image": true
   },
   {
    "id": "ordinateur",
@@ -2576,7 +2781,8 @@
    "en": "computer",
    "unit": 8,
    "rank": 287,
-   "emoji": "💻"
+   "emoji": "💻",
+   "image": true
   },
   {
    "id": "miroir",
@@ -2585,7 +2791,8 @@
    "en": "mirror",
    "unit": 8,
    "rank": 288,
-   "emoji": "🪞"
+   "emoji": "🪞",
+   "image": true
   },
   {
    "id": "douche",
@@ -2594,7 +2801,8 @@
    "en": "shower",
    "unit": 8,
    "rank": 289,
-   "emoji": "🚿"
+   "emoji": "🚿",
+   "image": true
   },
   {
    "id": "savon",
@@ -2603,7 +2811,8 @@
    "en": "soap",
    "unit": 8,
    "rank": 290,
-   "emoji": "🧼"
+   "emoji": "🧼",
+   "image": true
   },
   {
    "id": "brosse-a-dents",
@@ -2612,7 +2821,8 @@
    "en": "toothbrush",
    "unit": 8,
    "rank": 291,
-   "emoji": "🪥"
+   "emoji": "🪥",
+   "image": true
   },
   {
    "id": "serviette",
@@ -2621,7 +2831,8 @@
    "en": "towel",
    "unit": 8,
    "rank": 292,
-   "emoji": "🧻"
+   "emoji": "🧻",
+   "image": true
   },
   {
    "id": "assiette",
@@ -2630,7 +2841,8 @@
    "en": "plate",
    "unit": 8,
    "rank": 293,
-   "emoji": "🍽️"
+   "emoji": "🍽️",
+   "image": true
   },
   {
    "id": "verre",
@@ -2639,7 +2851,8 @@
    "en": "glass",
    "unit": 8,
    "rank": 294,
-   "emoji": "🥛"
+   "emoji": "🥛",
+   "image": true
   },
   {
    "id": "tasse",
@@ -2648,7 +2861,8 @@
    "en": "cup",
    "unit": 8,
    "rank": 295,
-   "emoji": "☕"
+   "emoji": "☕",
+   "image": true
   },
   {
    "id": "fourchette",
@@ -2657,7 +2871,8 @@
    "en": "fork",
    "unit": 8,
    "rank": 296,
-   "emoji": "🍴"
+   "emoji": "🍴",
+   "image": true
   },
   {
    "id": "couteau",
@@ -2666,7 +2881,8 @@
    "en": "knife",
    "unit": 8,
    "rank": 297,
-   "emoji": "🔪"
+   "emoji": "🔪",
+   "image": true
   },
   {
    "id": "cuillere",
@@ -2675,7 +2891,8 @@
    "en": "spoon",
    "unit": 8,
    "rank": 298,
-   "emoji": "🥄"
+   "emoji": "🥄",
+   "image": true
   },
   {
    "id": "frigo",
@@ -2684,7 +2901,8 @@
    "en": "fridge",
    "unit": 8,
    "rank": 299,
-   "emoji": "🧊"
+   "emoji": "🧊",
+   "image": true
   },
   {
    "id": "poubelle",
@@ -2693,7 +2911,8 @@
    "en": "bin",
    "unit": 8,
    "rank": 300,
-   "emoji": "🗑️"
+   "emoji": "🗑️",
+   "image": true
   },
   {
    "id": "jouet",
@@ -2702,7 +2921,8 @@
    "en": "toy",
    "unit": 8,
    "rank": 301,
-   "emoji": "🧸"
+   "emoji": "🧸",
+   "image": true
   },
   {
    "id": "poupee",
@@ -2711,7 +2931,8 @@
    "en": "doll",
    "unit": 8,
    "rank": 302,
-   "emoji": "🪆"
+   "emoji": "🪆",
+   "image": true
   },
   {
    "id": "ballon",
@@ -2720,7 +2941,8 @@
    "en": "ball / balloon",
    "unit": 8,
    "rank": 303,
-   "emoji": "🎈"
+   "emoji": "🎈",
+   "image": true
   },
   {
    "id": "cadeau",
@@ -2729,7 +2951,8 @@
    "en": "present / gift",
    "unit": 8,
    "rank": 304,
-   "emoji": "🎁"
+   "emoji": "🎁",
+   "image": true
   },
   {
    "id": "boite",
@@ -2738,7 +2961,8 @@
    "en": "box",
    "unit": 8,
    "rank": 305,
-   "emoji": "📦"
+   "emoji": "📦",
+   "image": true
   },
   {
    "id": "rue",
@@ -2747,7 +2971,8 @@
    "en": "street",
    "unit": 8,
    "rank": 306,
-   "emoji": "🛣️"
+   "emoji": "🛣️",
+   "image": true
   },
   {
    "id": "ville",
@@ -2756,7 +2981,8 @@
    "en": "town / city",
    "unit": 8,
    "rank": 307,
-   "emoji": "🏙️"
+   "emoji": "🏙️",
+   "image": true
   },
   {
    "id": "magasin",
@@ -2765,7 +2991,8 @@
    "en": "shop",
    "unit": 8,
    "rank": 308,
-   "emoji": "🏪"
+   "emoji": "🏪",
+   "image": true
   },
   {
    "id": "parc",
@@ -2774,7 +3001,8 @@
    "en": "park",
    "unit": 8,
    "rank": 309,
-   "emoji": "🌳"
+   "emoji": "🌳",
+   "image": true
   },
   {
    "id": "voiture",
@@ -2783,7 +3011,8 @@
    "en": "car",
    "unit": 8,
    "rank": 310,
-   "emoji": "🚗"
+   "emoji": "🚗",
+   "image": true
   },
   {
    "id": "velo",
@@ -2792,7 +3021,8 @@
    "en": "bike",
    "unit": 8,
    "rank": 311,
-   "emoji": "🚲"
+   "emoji": "🚲",
+   "image": true
   },
   {
    "id": "bus",
@@ -2801,7 +3031,8 @@
    "en": "bus",
    "unit": 8,
    "rank": 312,
-   "emoji": "🚌"
+   "emoji": "🚌",
+   "image": true
   },
   {
    "id": "train",
@@ -2810,7 +3041,8 @@
    "en": "train",
    "unit": 8,
    "rank": 313,
-   "emoji": "🚆"
+   "emoji": "🚆",
+   "image": true
   },
   {
    "id": "avion",
@@ -2819,7 +3051,8 @@
    "en": "plane",
    "unit": 8,
    "rank": 314,
-   "emoji": "✈️"
+   "emoji": "✈️",
+   "image": true
   },
   {
    "id": "bateau",
@@ -2828,7 +3061,8 @@
    "en": "boat",
    "unit": 8,
    "rank": 315,
-   "emoji": "⛵"
+   "emoji": "⛵",
+   "image": true
   },
   {
    "id": "argent",
@@ -2837,7 +3071,8 @@
    "en": "money",
    "unit": 8,
    "rank": 316,
-   "emoji": "💰"
+   "emoji": "💰",
+   "image": true
   },
   {
    "id": "vetements",
@@ -2846,7 +3081,8 @@
    "en": "clothes",
    "unit": 9,
    "rank": 317,
-   "emoji": "👚"
+   "emoji": "👚",
+   "image": true
   },
   {
    "id": "t-shirt",
@@ -2855,7 +3091,8 @@
    "en": "t-shirt",
    "unit": 9,
    "rank": 318,
-   "emoji": "👕"
+   "emoji": "👕",
+   "image": true
   },
   {
    "id": "chemise",
@@ -2864,7 +3101,8 @@
    "en": "shirt",
    "unit": 9,
    "rank": 319,
-   "emoji": "👔"
+   "emoji": "👔",
+   "image": true
   },
   {
    "id": "pull",
@@ -2873,7 +3111,8 @@
    "en": "jumper / sweater",
    "unit": 9,
    "rank": 320,
-   "emoji": "🧶"
+   "emoji": "🧶",
+   "image": true
   },
   {
    "id": "pantalon",
@@ -2882,7 +3121,8 @@
    "en": "trousers",
    "unit": 9,
    "rank": 321,
-   "emoji": "👖"
+   "emoji": "👖",
+   "image": true
   },
   {
    "id": "short",
@@ -2891,7 +3131,8 @@
    "en": "shorts",
    "unit": 9,
    "rank": 322,
-   "emoji": "🩳"
+   "emoji": "🩳",
+   "image": true
   },
   {
    "id": "jupe",
@@ -2900,7 +3141,8 @@
    "en": "skirt",
    "unit": 9,
    "rank": 323,
-   "emoji": "👗"
+   "emoji": "👗",
+   "image": true
   },
   {
    "id": "robe",
@@ -2909,7 +3151,8 @@
    "en": "dress",
    "unit": 9,
    "rank": 324,
-   "emoji": "👗"
+   "emoji": "👗",
+   "image": true
   },
   {
    "id": "manteau",
@@ -2918,7 +3161,8 @@
    "en": "coat",
    "unit": 9,
    "rank": 325,
-   "emoji": "🧥"
+   "emoji": "🧥",
+   "image": true
   },
   {
    "id": "veste",
@@ -2927,7 +3171,8 @@
    "en": "jacket",
    "unit": 9,
    "rank": 326,
-   "emoji": "🧥"
+   "emoji": "🧥",
+   "image": true
   },
   {
    "id": "chaussures",
@@ -2936,7 +3181,8 @@
    "en": "shoes",
    "unit": 9,
    "rank": 327,
-   "emoji": "👟"
+   "emoji": "👟",
+   "image": true
   },
   {
    "id": "bottes",
@@ -2945,7 +3191,8 @@
    "en": "boots",
    "unit": 9,
    "rank": 328,
-   "emoji": "👢"
+   "emoji": "👢",
+   "image": true
   },
   {
    "id": "chaussettes",
@@ -2954,7 +3201,8 @@
    "en": "socks",
    "unit": 9,
    "rank": 329,
-   "emoji": "🧦"
+   "emoji": "🧦",
+   "image": true
   },
   {
    "id": "chapeau",
@@ -2963,7 +3211,8 @@
    "en": "hat",
    "unit": 9,
    "rank": 330,
-   "emoji": "👒"
+   "emoji": "👒",
+   "image": true
   },
   {
    "id": "casquette",
@@ -2972,7 +3221,8 @@
    "en": "cap",
    "unit": 9,
    "rank": 331,
-   "emoji": "🧢"
+   "emoji": "🧢",
+   "image": true
   },
   {
    "id": "echarpe",
@@ -2981,7 +3231,8 @@
    "en": "scarf",
    "unit": 9,
    "rank": 332,
-   "emoji": "🧣"
+   "emoji": "🧣",
+   "image": true
   },
   {
    "id": "gants",
@@ -2990,7 +3241,8 @@
    "en": "gloves",
    "unit": 9,
    "rank": 333,
-   "emoji": "🧤"
+   "emoji": "🧤",
+   "image": true
   },
   {
    "id": "lunettes",
@@ -2999,7 +3251,8 @@
    "en": "glasses",
    "unit": 9,
    "rank": 334,
-   "emoji": "👓"
+   "emoji": "👓",
+   "image": true
   },
   {
    "id": "pyjama",
@@ -3008,7 +3261,8 @@
    "en": "pyjamas",
    "unit": 9,
    "rank": 335,
-   "emoji": "🛌"
+   "emoji": "🛌",
+   "image": true
   },
   {
    "id": "maillot-de-bain",
@@ -3017,7 +3271,8 @@
    "en": "swimsuit",
    "unit": 9,
    "rank": 336,
-   "emoji": "🩱"
+   "emoji": "🩱",
+   "image": true
   },
   {
    "id": "sac",
@@ -3026,7 +3281,8 @@
    "en": "bag",
    "unit": 9,
    "rank": 337,
-   "emoji": "👜"
+   "emoji": "👜",
+   "image": true
   },
   {
    "id": "montre",
@@ -3035,7 +3291,8 @@
    "en": "watch",
    "unit": 9,
    "rank": 338,
-   "emoji": "⌚"
+   "emoji": "⌚",
+   "image": true
   },
   {
    "id": "couronne",
@@ -3044,7 +3301,8 @@
    "en": "crown",
    "unit": 9,
    "rank": 339,
-   "emoji": "👑"
+   "emoji": "👑",
+   "image": true
   },
   {
    "id": "ecole",
@@ -3053,7 +3311,8 @@
    "en": "school",
    "unit": 10,
    "rank": 340,
-   "emoji": "🏫"
+   "emoji": "🏫",
+   "image": true
   },
   {
    "id": "classe",
@@ -3062,7 +3321,8 @@
    "en": "class / classroom",
    "unit": 10,
    "rank": 341,
-   "emoji": "🧑‍🏫"
+   "emoji": "🧑‍🏫",
+   "image": true
   },
   {
    "id": "eleve",
@@ -3071,7 +3331,8 @@
    "en": "pupil",
    "unit": 10,
    "rank": 342,
-   "emoji": "🧒"
+   "emoji": "🧒",
+   "image": true
   },
   {
    "id": "livre",
@@ -3080,7 +3341,8 @@
    "en": "book",
    "unit": 10,
    "rank": 343,
-   "emoji": "📖"
+   "emoji": "📖",
+   "image": true
   },
   {
    "id": "cahier",
@@ -3089,7 +3351,8 @@
    "en": "notebook",
    "unit": 10,
    "rank": 344,
-   "emoji": "📓"
+   "emoji": "📓",
+   "image": true
   },
   {
    "id": "stylo",
@@ -3098,7 +3361,8 @@
    "en": "pen",
    "unit": 10,
    "rank": 345,
-   "emoji": "🖊️"
+   "emoji": "🖊️",
+   "image": true
   },
   {
    "id": "crayon",
@@ -3107,7 +3371,8 @@
    "en": "pencil",
    "unit": 10,
    "rank": 346,
-   "emoji": "✏️"
+   "emoji": "✏️",
+   "image": true
   },
   {
    "id": "gomme",
@@ -3116,7 +3381,8 @@
    "en": "rubber / eraser",
    "unit": 10,
    "rank": 347,
-   "emoji": "🩹"
+   "emoji": "🩹",
+   "image": true
   },
   {
    "id": "regle",
@@ -3125,7 +3391,8 @@
    "en": "ruler",
    "unit": 10,
    "rank": 348,
-   "emoji": "📏"
+   "emoji": "📏",
+   "image": true
   },
   {
    "id": "ciseaux",
@@ -3134,7 +3401,8 @@
    "en": "scissors",
    "unit": 10,
    "rank": 349,
-   "emoji": "✂️"
+   "emoji": "✂️",
+   "image": true
   },
   {
    "id": "colle",
@@ -3143,7 +3411,8 @@
    "en": "glue",
    "unit": 10,
    "rank": 350,
-   "emoji": "🧴"
+   "emoji": "🧴",
+   "image": true
   },
   {
    "id": "sac-a-dos",
@@ -3152,7 +3421,8 @@
    "en": "backpack",
    "unit": 10,
    "rank": 351,
-   "emoji": "🎒"
+   "emoji": "🎒",
+   "image": true
   },
   {
    "id": "tableau",
@@ -3161,7 +3431,8 @@
    "en": "board / painting",
    "unit": 10,
    "rank": 352,
-   "emoji": "🖼️"
+   "emoji": "🖼️",
+   "image": true
   },
   {
    "id": "bureau",
@@ -3170,7 +3441,8 @@
    "en": "desk / office",
    "unit": 10,
    "rank": 353,
-   "emoji": "🪑"
+   "emoji": "🪑",
+   "image": true
   },
   {
    "id": "question",
@@ -3195,7 +3467,8 @@
    "en": "homework",
    "unit": 10,
    "rank": 356,
-   "emoji": "📝"
+   "emoji": "📝",
+   "image": true
   },
   {
    "id": "lettre",
@@ -3204,7 +3477,8 @@
    "en": "letter",
    "unit": 10,
    "rank": 357,
-   "emoji": "✉️"
+   "emoji": "✉️",
+   "image": true
   },
   {
    "id": "mot",
@@ -3229,7 +3503,8 @@
    "en": "story / history",
    "unit": 10,
    "rank": 360,
-   "emoji": "📚"
+   "emoji": "📚",
+   "image": true
   },
   {
    "id": "musique",
@@ -3238,7 +3513,8 @@
    "en": "music",
    "unit": 10,
    "rank": 361,
-   "emoji": "🎵"
+   "emoji": "🎵",
+   "image": true
   },
   {
    "id": "chanson",
@@ -3247,7 +3523,8 @@
    "en": "song",
    "unit": 10,
    "rank": 362,
-   "emoji": "🎤"
+   "emoji": "🎤",
+   "image": true
   },
   {
    "id": "dessin",
@@ -3256,7 +3533,8 @@
    "en": "drawing",
    "unit": 10,
    "rank": 363,
-   "emoji": "🎨"
+   "emoji": "🎨",
+   "image": true
   },
   {
    "id": "sport",
@@ -3265,7 +3543,8 @@
    "en": "sport",
    "unit": 10,
    "rank": 364,
-   "emoji": "⚽"
+   "emoji": "⚽",
+   "image": true
   },
   {
    "id": "football",
@@ -3274,7 +3553,8 @@
    "en": "football",
    "unit": 10,
    "rank": 365,
-   "emoji": "⚽"
+   "emoji": "⚽",
+   "image": true
   },
   {
    "id": "natation",
@@ -3283,7 +3563,8 @@
    "en": "swimming",
    "unit": 10,
    "rank": 366,
-   "emoji": "🏊"
+   "emoji": "🏊",
+   "image": true
   },
   {
    "id": "danse",
@@ -3292,7 +3573,8 @@
    "en": "dance",
    "unit": 10,
    "rank": 367,
-   "emoji": "💃"
+   "emoji": "💃",
+   "image": true
   },
   {
    "id": "jeu",
@@ -3301,7 +3583,8 @@
    "en": "game",
    "unit": 10,
    "rank": 368,
-   "emoji": "🎲"
+   "emoji": "🎲",
+   "image": true
   },
   {
    "id": "recreation",
@@ -3310,7 +3593,8 @@
    "en": "break / recess",
    "unit": 10,
    "rank": 369,
-   "emoji": "🛝"
+   "emoji": "🛝",
+   "image": true
   },
   {
    "id": "bibliotheque",
@@ -3319,7 +3603,8 @@
    "en": "library",
    "unit": 10,
    "rank": 370,
-   "emoji": "📚"
+   "emoji": "📚",
+   "image": true
   },
   {
    "id": "anglais",
@@ -3328,7 +3613,8 @@
    "en": "English",
    "unit": 10,
    "rank": 371,
-   "emoji": "🇬🇧"
+   "emoji": "🇬🇧",
+   "image": true
   },
   {
    "id": "francais",
@@ -3337,7 +3623,8 @@
    "en": "French",
    "unit": 10,
    "rank": 372,
-   "emoji": "🇫🇷"
+   "emoji": "🇫🇷",
+   "image": true
   },
   {
    "id": "suedois",
@@ -3346,7 +3633,8 @@
    "en": "Swedish",
    "unit": 10,
    "rank": 373,
-   "emoji": "🇸🇪"
+   "emoji": "🇸🇪",
+   "image": true
   },
   {
    "id": "mathematiques",
@@ -3355,7 +3643,8 @@
    "en": "maths",
    "unit": 10,
    "rank": 374,
-   "emoji": "➗"
+   "emoji": "➗",
+   "image": true
   },
   {
    "id": "science",
@@ -3364,7 +3653,8 @@
    "en": "science",
    "unit": 10,
    "rank": 375,
-   "emoji": "🔬"
+   "emoji": "🔬",
+   "image": true
   },
   {
    "id": "temps",
@@ -3381,7 +3671,8 @@
    "en": "sun",
    "unit": 11,
    "rank": 377,
-   "emoji": "☀️"
+   "emoji": "☀️",
+   "image": true
   },
   {
    "id": "pluie",
@@ -3390,7 +3681,8 @@
    "en": "rain",
    "unit": 11,
    "rank": 378,
-   "emoji": "🌧️"
+   "emoji": "🌧️",
+   "image": true
   },
   {
    "id": "neige",
@@ -3399,7 +3691,8 @@
    "en": "snow",
    "unit": 11,
    "rank": 379,
-   "emoji": "❄️"
+   "emoji": "❄️",
+   "image": true
   },
   {
    "id": "vent",
@@ -3408,7 +3701,8 @@
    "en": "wind",
    "unit": 11,
    "rank": 380,
-   "emoji": "💨"
+   "emoji": "💨",
+   "image": true
   },
   {
    "id": "nuage",
@@ -3417,7 +3711,8 @@
    "en": "cloud",
    "unit": 11,
    "rank": 381,
-   "emoji": "☁️"
+   "emoji": "☁️",
+   "image": true
   },
   {
    "id": "orage",
@@ -3426,7 +3721,8 @@
    "en": "storm",
    "unit": 11,
    "rank": 382,
-   "emoji": "⛈️"
+   "emoji": "⛈️",
+   "image": true
   },
   {
    "id": "arc-en-ciel",
@@ -3435,7 +3731,8 @@
    "en": "rainbow",
    "unit": 11,
    "rank": 383,
-   "emoji": "🌈"
+   "emoji": "🌈",
+   "image": true
   },
   {
    "id": "il-fait-chaud",
@@ -3444,7 +3741,8 @@
    "en": "it's hot",
    "unit": 11,
    "rank": 384,
-   "emoji": "🥵"
+   "emoji": "🥵",
+   "image": true
   },
   {
    "id": "il-fait-froid",
@@ -3453,7 +3751,8 @@
    "en": "it's cold",
    "unit": 11,
    "rank": 385,
-   "emoji": "🥶"
+   "emoji": "🥶",
+   "image": true
   },
   {
    "id": "il-pleut",
@@ -3462,7 +3761,8 @@
    "en": "it's raining",
    "unit": 11,
    "rank": 386,
-   "emoji": "☔"
+   "emoji": "☔",
+   "image": true
   },
   {
    "id": "printemps",
@@ -3471,7 +3771,8 @@
    "en": "spring",
    "unit": 11,
    "rank": 387,
-   "emoji": "🌱"
+   "emoji": "🌱",
+   "image": true
   },
   {
    "id": "ete",
@@ -3480,7 +3781,8 @@
    "en": "summer",
    "unit": 11,
    "rank": 388,
-   "emoji": "🏖️"
+   "emoji": "🏖️",
+   "image": true
   },
   {
    "id": "automne",
@@ -3489,7 +3791,8 @@
    "en": "autumn",
    "unit": 11,
    "rank": 389,
-   "emoji": "🍂"
+   "emoji": "🍂",
+   "image": true
   },
   {
    "id": "hiver",
@@ -3498,7 +3801,8 @@
    "en": "winter",
    "unit": 11,
    "rank": 390,
-   "emoji": "⛄"
+   "emoji": "⛄",
+   "image": true
   },
   {
    "id": "jour",
@@ -3507,7 +3811,8 @@
    "en": "day",
    "unit": 11,
    "rank": 391,
-   "emoji": "🌞"
+   "emoji": "🌞",
+   "image": true
   },
   {
    "id": "nuit",
@@ -3516,7 +3821,8 @@
    "en": "night",
    "unit": 11,
    "rank": 392,
-   "emoji": "🌃"
+   "emoji": "🌃",
+   "image": true
   },
   {
    "id": "matin",
@@ -3525,7 +3831,8 @@
    "en": "morning",
    "unit": 11,
    "rank": 393,
-   "emoji": "🌅"
+   "emoji": "🌅",
+   "image": true
   },
   {
    "id": "apres-midi",
@@ -3534,7 +3841,8 @@
    "en": "afternoon",
    "unit": 11,
    "rank": 394,
-   "emoji": "🕒"
+   "emoji": "🕒",
+   "image": true
   },
   {
    "id": "soir",
@@ -3543,7 +3851,8 @@
    "en": "evening",
    "unit": 11,
    "rank": 395,
-   "emoji": "🌆"
+   "emoji": "🌆",
+   "image": true
   },
   {
    "id": "aujourd-hui",
@@ -3680,7 +3989,8 @@
    "en": "moon",
    "unit": 11,
    "rank": 412,
-   "emoji": "🌙"
+   "emoji": "🌙",
+   "image": true
   },
   {
    "id": "etoile",
@@ -3689,7 +3999,8 @@
    "en": "star",
    "unit": 11,
    "rank": 413,
-   "emoji": "⭐"
+   "emoji": "⭐",
+   "image": true
   },
   {
    "id": "ciel",
@@ -3698,7 +4009,8 @@
    "en": "sky",
    "unit": 11,
    "rank": 414,
-   "emoji": "🌌"
+   "emoji": "🌌",
+   "image": true
   },
   {
    "id": "mer",
@@ -3707,7 +4019,8 @@
    "en": "sea",
    "unit": 11,
    "rank": 415,
-   "emoji": "🌊"
+   "emoji": "🌊",
+   "image": true
   },
   {
    "id": "plage",
@@ -3716,7 +4029,8 @@
    "en": "beach",
    "unit": 11,
    "rank": 416,
-   "emoji": "🏖️"
+   "emoji": "🏖️",
+   "image": true
   },
   {
    "id": "montagne",
@@ -3725,7 +4039,8 @@
    "en": "mountain",
    "unit": 11,
    "rank": 417,
-   "emoji": "⛰️"
+   "emoji": "⛰️",
+   "image": true
   },
   {
    "id": "foret",
@@ -3734,7 +4049,8 @@
    "en": "forest",
    "unit": 11,
    "rank": 418,
-   "emoji": "🌲"
+   "emoji": "🌲",
+   "image": true
   },
   {
    "id": "arbre",
@@ -3743,7 +4059,8 @@
    "en": "tree",
    "unit": 11,
    "rank": 419,
-   "emoji": "🌳"
+   "emoji": "🌳",
+   "image": true
   },
   {
    "id": "fleur",
@@ -3752,7 +4069,8 @@
    "en": "flower",
    "unit": 11,
    "rank": 420,
-   "emoji": "🌸"
+   "emoji": "🌸",
+   "image": true
   },
   {
    "id": "herbe",
@@ -3761,7 +4079,8 @@
    "en": "grass",
    "unit": 11,
    "rank": 421,
-   "emoji": "🌿"
+   "emoji": "🌿",
+   "image": true
   },
   {
    "id": "riviere",
@@ -3770,7 +4089,8 @@
    "en": "river",
    "unit": 11,
    "rank": 422,
-   "emoji": "🏞️"
+   "emoji": "🏞️",
+   "image": true
   },
   {
    "id": "feu",
@@ -3779,7 +4099,8 @@
    "en": "fire",
    "unit": 11,
    "rank": 423,
-   "emoji": "🔥"
+   "emoji": "🔥",
+   "image": true
   },
   {
    "id": "terre",
@@ -3788,7 +4109,8 @@
    "en": "earth / ground",
    "unit": 11,
    "rank": 424,
-   "emoji": "🌍"
+   "emoji": "🌍",
+   "image": true
   },
   {
    "id": "monde",
@@ -3805,7 +4127,8 @@
    "en": "party",
    "unit": 11,
    "rank": 426,
-   "emoji": "🎉"
+   "emoji": "🎉",
+   "image": true
   },
   {
    "id": "noel",
@@ -3814,7 +4137,8 @@
    "en": "Christmas",
    "unit": 11,
    "rank": 427,
-   "emoji": "🎄"
+   "emoji": "🎄",
+   "image": true
   },
   {
    "id": "vacances",
@@ -3823,7 +4147,8 @@
    "en": "holidays",
    "unit": 11,
    "rank": 428,
-   "emoji": "🏝️"
+   "emoji": "🏝️",
+   "image": true
   },
   {
    "id": "etre",
@@ -3848,7 +4173,8 @@
    "en": "to go",
    "unit": 12,
    "rank": 431,
-   "emoji": "🚶"
+   "emoji": "🚶",
+   "image": true
   },
   {
    "id": "venir",
@@ -3857,7 +4183,8 @@
    "en": "to come",
    "unit": 12,
    "rank": 432,
-   "emoji": "🫴"
+   "emoji": "🫴",
+   "image": true
   },
   {
    "id": "faire",
@@ -3866,7 +4193,8 @@
    "en": "to do / make",
    "unit": 12,
    "rank": 433,
-   "emoji": "🛠️"
+   "emoji": "🛠️",
+   "image": true
   },
   {
    "id": "dire",
@@ -3875,7 +4203,8 @@
    "en": "to say",
    "unit": 12,
    "rank": 434,
-   "emoji": "💬"
+   "emoji": "💬",
+   "image": true
   },
   {
    "id": "parler",
@@ -3884,7 +4213,8 @@
    "en": "to speak",
    "unit": 12,
    "rank": 435,
-   "emoji": "🗣️"
+   "emoji": "🗣️",
+   "image": true
   },
   {
    "id": "voir",
@@ -3893,7 +4223,8 @@
    "en": "to see",
    "unit": 12,
    "rank": 436,
-   "emoji": "👀"
+   "emoji": "👀",
+   "image": true
   },
   {
    "id": "regarder",
@@ -3902,7 +4233,8 @@
    "en": "to look / watch",
    "unit": 12,
    "rank": 437,
-   "emoji": "👁️"
+   "emoji": "👁️",
+   "image": true
   },
   {
    "id": "ecouter",
@@ -3911,7 +4243,8 @@
    "en": "to listen",
    "unit": 12,
    "rank": 438,
-   "emoji": "👂"
+   "emoji": "👂",
+   "image": true
   },
   {
    "id": "entendre",
@@ -3920,7 +4253,8 @@
    "en": "to hear",
    "unit": 12,
    "rank": 439,
-   "emoji": "🔊"
+   "emoji": "🔊",
+   "image": true
   },
   {
    "id": "manger",
@@ -3929,7 +4263,8 @@
    "en": "to eat",
    "unit": 12,
    "rank": 440,
-   "emoji": "🍽️"
+   "emoji": "🍽️",
+   "image": true
   },
   {
    "id": "boire",
@@ -3938,7 +4273,8 @@
    "en": "to drink",
    "unit": 12,
    "rank": 441,
-   "emoji": "🥤"
+   "emoji": "🥤",
+   "image": true
   },
   {
    "id": "dormir",
@@ -3947,7 +4283,8 @@
    "en": "to sleep",
    "unit": 12,
    "rank": 442,
-   "emoji": "😴"
+   "emoji": "😴",
+   "image": true
   },
   {
    "id": "jouer",
@@ -3956,7 +4293,8 @@
    "en": "to play",
    "unit": 12,
    "rank": 443,
-   "emoji": "🎮"
+   "emoji": "🎮",
+   "image": true
   },
   {
    "id": "lire",
@@ -3965,7 +4303,8 @@
    "en": "to read",
    "unit": 12,
    "rank": 444,
-   "emoji": "📖"
+   "emoji": "📖",
+   "image": true
   },
   {
    "id": "ecrire",
@@ -3974,7 +4313,8 @@
    "en": "to write",
    "unit": 12,
    "rank": 445,
-   "emoji": "✍️"
+   "emoji": "✍️",
+   "image": true
   },
   {
    "id": "chanter",
@@ -3983,7 +4323,8 @@
    "en": "to sing",
    "unit": 12,
    "rank": 446,
-   "emoji": "🎤"
+   "emoji": "🎤",
+   "image": true
   },
   {
    "id": "danser",
@@ -3992,7 +4333,8 @@
    "en": "to dance",
    "unit": 12,
    "rank": 447,
-   "emoji": "💃"
+   "emoji": "💃",
+   "image": true
   },
   {
    "id": "courir",
@@ -4001,7 +4343,8 @@
    "en": "to run",
    "unit": 12,
    "rank": 448,
-   "emoji": "🏃"
+   "emoji": "🏃",
+   "image": true
   },
   {
    "id": "marcher",
@@ -4010,7 +4353,8 @@
    "en": "to walk",
    "unit": 12,
    "rank": 449,
-   "emoji": "🚶"
+   "emoji": "🚶",
+   "image": true
   },
   {
    "id": "sauter",
@@ -4019,7 +4363,8 @@
    "en": "to jump",
    "unit": 12,
    "rank": 450,
-   "emoji": "🤸"
+   "emoji": "🤸",
+   "image": true
   },
   {
    "id": "nager",
@@ -4028,7 +4373,8 @@
    "en": "to swim",
    "unit": 12,
    "rank": 451,
-   "emoji": "🏊"
+   "emoji": "🏊",
+   "image": true
   },
   {
    "id": "ouvrir",
@@ -4037,7 +4383,8 @@
    "en": "to open",
    "unit": 12,
    "rank": 452,
-   "emoji": "🔓"
+   "emoji": "🔓",
+   "image": true
   },
   {
    "id": "fermer",
@@ -4046,7 +4393,8 @@
    "en": "to close",
    "unit": 12,
    "rank": 453,
-   "emoji": "🔒"
+   "emoji": "🔒",
+   "image": true
   },
   {
    "id": "donner",
@@ -4055,7 +4403,8 @@
    "en": "to give",
    "unit": 12,
    "rank": 454,
-   "emoji": "🎁"
+   "emoji": "🎁",
+   "image": true
   },
   {
    "id": "prendre",
@@ -4064,7 +4413,8 @@
    "en": "to take",
    "unit": 12,
    "rank": 455,
-   "emoji": "✊"
+   "emoji": "✊",
+   "image": true
   },
   {
    "id": "aimer",
@@ -4073,7 +4423,8 @@
    "en": "to like / love",
    "unit": 12,
    "rank": 456,
-   "emoji": "❤️"
+   "emoji": "❤️",
+   "image": true
   },
   {
    "id": "vouloir",
@@ -4106,7 +4457,8 @@
    "en": "to think",
    "unit": 12,
    "rank": 460,
-   "emoji": "💭"
+   "emoji": "💭",
+   "image": true
   },
   {
    "id": "apprendre",
@@ -4115,7 +4467,8 @@
    "en": "to learn",
    "unit": 12,
    "rank": 461,
-   "emoji": "🎓"
+   "emoji": "🎓",
+   "image": true
   },
   {
    "id": "comprendre",
@@ -4124,7 +4477,8 @@
    "en": "to understand",
    "unit": 12,
    "rank": 462,
-   "emoji": "💡"
+   "emoji": "💡",
+   "image": true
   },
   {
    "id": "acheter",
@@ -4133,7 +4487,8 @@
    "en": "to buy",
    "unit": 12,
    "rank": 463,
-   "emoji": "🛒"
+   "emoji": "🛒",
+   "image": true
   },
   {
    "id": "habiter",
@@ -4142,7 +4497,8 @@
    "en": "to live (somewhere)",
    "unit": 12,
    "rank": 464,
-   "emoji": "🏠"
+   "emoji": "🏠",
+   "image": true
   },
   {
    "id": "travailler",
@@ -4151,7 +4507,8 @@
    "en": "to work",
    "unit": 12,
    "rank": 465,
-   "emoji": "💼"
+   "emoji": "💼",
+   "image": true
   },
   {
    "id": "attendre",
@@ -4160,7 +4517,8 @@
    "en": "to wait",
    "unit": 12,
    "rank": 466,
-   "emoji": "⏳"
+   "emoji": "⏳",
+   "image": true
   },
   {
    "id": "chercher",
@@ -4169,7 +4527,8 @@
    "en": "to look for",
    "unit": 12,
    "rank": 467,
-   "emoji": "🔍"
+   "emoji": "🔍",
+   "image": true
   },
   {
    "id": "trouver",
@@ -4178,7 +4537,8 @@
    "en": "to find",
    "unit": 12,
    "rank": 468,
-   "emoji": "🔎"
+   "emoji": "🔎",
+   "image": true
   },
   {
    "id": "aider",
@@ -4187,7 +4547,8 @@
    "en": "to help",
    "unit": 12,
    "rank": 469,
-   "emoji": "🤝"
+   "emoji": "🤝",
+   "image": true
   },
   {
    "id": "rire",
@@ -4196,7 +4557,8 @@
    "en": "to laugh",
    "unit": 12,
    "rank": 470,
-   "emoji": "😂"
+   "emoji": "😂",
+   "image": true
   },
   {
    "id": "pleurer",
@@ -4205,7 +4567,8 @@
    "en": "to cry",
    "unit": 12,
    "rank": 471,
-   "emoji": "😭"
+   "emoji": "😭",
+   "image": true
   },
   {
    "id": "dessiner",
@@ -4214,7 +4577,8 @@
    "en": "to draw",
    "unit": 12,
    "rank": 472,
-   "emoji": "✏️"
+   "emoji": "✏️",
+   "image": true
   },
   {
    "id": "grand",
@@ -4223,7 +4587,8 @@
    "en": "big / tall",
    "unit": 12,
    "rank": 473,
-   "emoji": "🦒"
+   "emoji": "🦒",
+   "image": true
   },
   {
    "id": "petit",
@@ -4232,7 +4597,8 @@
    "en": "small / little",
    "unit": 12,
    "rank": 474,
-   "emoji": "🐜"
+   "emoji": "🐜",
+   "image": true
   },
   {
    "id": "bon",
@@ -4257,7 +4623,8 @@
    "en": "beautiful / handsome",
    "unit": 12,
    "rank": 477,
-   "emoji": "🌟"
+   "emoji": "🌟",
+   "image": true
   },
   {
    "id": "joli",
@@ -4266,7 +4633,8 @@
    "en": "pretty",
    "unit": 12,
    "rank": 478,
-   "emoji": "🌸"
+   "emoji": "🌸",
+   "image": true
   },
   {
    "id": "nouveau",
@@ -4283,7 +4651,8 @@
    "en": "old",
    "unit": 12,
    "rank": 480,
-   "emoji": "👴"
+   "emoji": "👴",
+   "image": true
   },
   {
    "id": "jeune",
@@ -4292,7 +4661,8 @@
    "en": "young",
    "unit": 12,
    "rank": 481,
-   "emoji": "🧒"
+   "emoji": "🧒",
+   "image": true
   },
   {
    "id": "chaud",
@@ -4301,7 +4671,8 @@
    "en": "hot",
    "unit": 12,
    "rank": 482,
-   "emoji": "🔥"
+   "emoji": "🔥",
+   "image": true
   },
   {
    "id": "froid",
@@ -4310,7 +4681,8 @@
    "en": "cold",
    "unit": 12,
    "rank": 483,
-   "emoji": "🧊"
+   "emoji": "🧊",
+   "image": true
   },
   {
    "id": "rapide",
@@ -4319,7 +4691,8 @@
    "en": "fast",
    "unit": 12,
    "rank": 484,
-   "emoji": "🐇"
+   "emoji": "🐇",
+   "image": true
   },
   {
    "id": "lent",
@@ -4328,7 +4701,8 @@
    "en": "slow",
    "unit": 12,
    "rank": 485,
-   "emoji": "🐢"
+   "emoji": "🐢",
+   "image": true
   },
   {
    "id": "fort",
@@ -4337,7 +4711,8 @@
    "en": "strong / loud",
    "unit": 12,
    "rank": 486,
-   "emoji": "💪"
+   "emoji": "💪",
+   "image": true
   },
   {
    "id": "facile",
@@ -4362,7 +4737,8 @@
    "en": "kind / nice",
    "unit": 12,
    "rank": 489,
-   "emoji": "🤗"
+   "emoji": "🤗",
+   "image": true
   },
   {
    "id": "mechant",
@@ -4371,7 +4747,8 @@
    "en": "mean / naughty",
    "unit": 12,
    "rank": 490,
-   "emoji": "😈"
+   "emoji": "😈",
+   "image": true
   },
   {
    "id": "drole",
@@ -4380,7 +4757,8 @@
    "en": "funny",
    "unit": 12,
    "rank": 491,
-   "emoji": "🤣"
+   "emoji": "🤣",
+   "image": true
   },
   {
    "id": "propre",
@@ -4389,7 +4767,8 @@
    "en": "clean",
    "unit": 12,
    "rank": 492,
-   "emoji": "✨"
+   "emoji": "✨",
+   "image": true
   },
   {
    "id": "sale",
@@ -4398,7 +4777,8 @@
    "en": "dirty",
    "unit": 12,
    "rank": 493,
-   "emoji": "🧹"
+   "emoji": "🧹",
+   "image": true
   },
   {
    "id": "plein",
@@ -4407,7 +4787,8 @@
    "en": "full",
    "unit": 12,
    "rank": 494,
-   "emoji": "🈵"
+   "emoji": "🈵",
+   "image": true
   },
   {
    "id": "vide",
@@ -4416,7 +4797,8 @@
    "en": "empty",
    "unit": 12,
    "rank": 495,
-   "emoji": "🕳️"
+   "emoji": "🕳️",
+   "image": true
   },
   {
    "id": "ouvert",
@@ -4425,7 +4807,8 @@
    "en": "open",
    "unit": 12,
    "rank": 496,
-   "emoji": "🔓"
+   "emoji": "🔓",
+   "image": true
   },
   {
    "id": "ferme",
@@ -4434,7 +4817,8 @@
    "en": "closed",
    "unit": 12,
    "rank": 497,
-   "emoji": "🔒"
+   "emoji": "🔒",
+   "image": true
   },
   {
    "id": "gauche",
