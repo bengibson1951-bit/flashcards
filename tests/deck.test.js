@@ -27,13 +27,29 @@ test('word without emoji has no pic card; toggles respected', () => {
   assert.deepEqual(cardsForWord(words[0], { cardTypes: { ...allTypes, spell: false } }), ['pic', 'fr2en', 'en2fr']);
 });
 
-test('intros limited to newPerDay minus already introduced today, in rank order', () => {
+test('intros limited to newPerDay per session (not per day), in rank order', () => {
   const progress = emptyProgress();
   progress.newCountByDay[TODAY] = 1;
   const q = buildQueue({ words, cards: {}, settings, progress, now: NOW, scope: { type: 'all' } });
   const intros = q.items.filter((i) => i.kind === 'intro');
-  assert.deepEqual(intros.map((i) => i.wordId), ['a']);
+  assert.deepEqual(intros.map((i) => i.wordId), ['a', 'b']);
   assert.equal(q.newToday, 1);
+});
+
+test('practice mode: all cards of introduced words, ignoring due dates and next-day unlock, no intros', () => {
+  const cards = { 'a|pic': { ...newCard(), state: 'review', due: NOW + 10 * DAY } };
+  const progress = emptyProgress();
+  progress.newIntroducedDates.a = TODAY;
+  progress.newIntroducedDates.b = TODAY;
+  const q = buildQueue({ words, cards, settings, progress, now: NOW, scope: { type: 'all' }, mode: 'practice', rng: () => 0.5 });
+  assert.ok(q.items.every((i) => i.kind === 'card'));
+  assert.deepEqual(q.items.map((i) => cardId(i.wordId, i.type)).sort(),
+    ['a|en2fr', 'a|fr2en', 'a|pic', 'a|spell', 'b|en2fr', 'b|fr2en', 'b|spell']);
+});
+
+test('practice mode with nothing introduced is empty', () => {
+  const q = buildQueue({ words, cards: {}, settings, progress: emptyProgress(), now: NOW, scope: { type: 'all' }, mode: 'practice' });
+  assert.deepEqual(q.items, []);
 });
 
 test('known words are skipped for intros', () => {
@@ -60,12 +76,12 @@ test('en2fr/spell excluded on introduction day, included next day', () => {
   };
   const progress = emptyProgress();
   progress.newIntroducedDates.a = TODAY;
-  progress.newCountByDay[TODAY] = 2;
-  let q = buildQueue({ words, cards, settings, progress, now: NOW, scope: { type: 'all' } });
+  const noNew = { ...settings, newPerDay: 0 };
+  let q = buildQueue({ words, cards, settings: noNew, progress, now: NOW, scope: { type: 'all' } });
   assert.deepEqual(q.items.map((i) => i.type).sort(), ['fr2en', 'pic']);
 
   progress.newIntroducedDates.a = YESTERDAY;
-  q = buildQueue({ words, cards, settings, progress, now: NOW, scope: { type: 'all' } });
+  q = buildQueue({ words, cards, settings: noNew, progress, now: NOW, scope: { type: 'all' } });
   assert.deepEqual(q.items.map((i) => i.type).sort(), ['en2fr', 'fr2en', 'pic', 'spell']);
 });
 
@@ -78,8 +94,7 @@ test('only due cards are included', () => {
   };
   const progress = emptyProgress();
   progress.newIntroducedDates.a = YESTERDAY;
-  progress.newCountByDay[TODAY] = 2;
-  const q = buildQueue({ words, cards, settings, progress, now: NOW, scope: { type: 'all' } });
+  const q = buildQueue({ words, cards, settings: { ...settings, newPerDay: 0 }, progress, now: NOW, scope: { type: 'all' } });
   assert.deepEqual(q.items.map((i) => cardId(i.wordId, i.type)), ['a|fr2en']);
 });
 

@@ -81,10 +81,10 @@ function scopeFor(src) {
   return { type: 'all' };
 }
 
-function queueNow() {
+function queueNow(mode = 'due') {
   return buildQueue({
     words: allWords, cards: state.cards, settings: state.settings,
-    progress: state.progress, now: Date.now(), scope: scopeFor(source),
+    progress: state.progress, now: Date.now(), scope: scopeFor(source), mode,
   });
 }
 
@@ -101,7 +101,8 @@ function bindHome() {
   });
   $('#source-unit').addEventListener('change', updateSource);
   $('#source-list').addEventListener('change', updateSource);
-  $('#btn-start').addEventListener('click', startSession);
+  $('#btn-start').addEventListener('click', () => startSession('due'));
+  $('#btn-practice').addEventListener('click', () => startSession('practice'));
 }
 
 function updateSource() {
@@ -141,6 +142,10 @@ function renderHome() {
     const nd = nextDue(state.cards, Date.now());
     emptyEl.textContent = nd ? `${t('nothingDue')} ${t('nextIn', { t: formatInterval(nd - Date.now()) })}` : t('nothingDue');
   }
+  const practiceCards = queueNow('practice').items.length;
+  const pb = $('#btn-practice');
+  pb.hidden = practiceCards === 0;
+  pb.innerHTML = esc(t('practice')) + `<small>${esc(t('practiceSub', { n: practiceCards }))}</small>`;
 }
 
 function currentStreak() {
@@ -160,10 +165,10 @@ function touchStreak() {
 }
 
 // ---------- study ----------
-function startSession() {
-  const q = queueNow();
+function startSession(mode = 'due') {
+  const q = queueNow(mode);
   if (!q.items.length) return;
-  session = { items: q.items, index: 0, done: 0, newCount: 0, correct: 0, graded: 0, spellPrompt: 0 };
+  session = { items: q.items, index: 0, done: 0, newCount: 0, correct: 0, graded: 0, spellPrompt: 0, practice: mode === 'practice' };
   showScreen('study');
   showCurrent();
 }
@@ -314,7 +319,9 @@ function showRecall(w, type) {
 function showGradeButtons(w, type) {
   const id = cardId(w.id, type);
   const card = state.cards[id] ?? newCard();
-  const labels = previewIntervals(card, Date.now());
+  const labels = session.practice && card.state === 'review'
+    ? [previewIntervals(card, Date.now())[0], '', '', '']
+    : previewIntervals(card, Date.now());
   const actions = $('#actions');
   actions.className = 'actions grades';
   actions.innerHTML = '';
@@ -329,7 +336,9 @@ function showGradeButtons(w, type) {
 function grade(w, type, g) {
   const id = cardId(w.id, type);
   const before = state.cards[id] ?? newCard();
-  const after = schedule(before, g, Date.now());
+  // Practice: passing a card early never inflates its interval; failing it still counts.
+  const keep = session.practice && before.state === 'review' && g >= HARD;
+  const after = keep ? before : schedule(before, g, Date.now());
   state.cards[id] = after;
   state.stats.reviews++;
   session.graded++;
@@ -337,7 +346,7 @@ function grade(w, type, g) {
   touchStreak();
   persist();
   // Still in a learning step → come back later this session.
-  if (after.state === 'learning' || after.state === 'relearning') {
+  if (!keep && (after.state === 'learning' || after.state === 'relearning')) {
     session.relearn = session.relearn ?? [];
     session.relearn.push({ kind: 'card', wordId: w.id, type });
   }

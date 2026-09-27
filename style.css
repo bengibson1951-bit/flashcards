@@ -108,6 +108,7 @@ section[data-screen].active { display: block; }
 .big-btn.grey { background: var(--grey); --btn-shadow: var(--grey-dark); color: var(--ink); }
 .big-btn small { display: block; font-size: .8rem; font-weight: 600; opacity: .85; margin-top: 2px; }
 .big-btn:disabled { opacity: .5; }
+#btn-practice { margin-top: 12px; }
 .file-btn { cursor: pointer; }
 .row { display: flex; gap: 10px; margin-top: 10px; }
 .row .big-btn { margin: 0; }
@@ -217,6 +218,7 @@ section[data-screen].active { display: block; }
 .bottom-nav button span { font-size: .7rem; font-weight: 700; }
 .bottom-nav button.active { color: var(--sky); }
 body.studying .bottom-nav { display: none; }
+.muted.center { color: #eaf4ff; margin-top: 10px; }
 
 @keyframes pop { from { transform: scale(.94); opacity: .6; } to { transform: none; opacity: 1; } }
 .flashcard.pop { animation: pop .18s ease-out; }

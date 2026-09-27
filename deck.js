@@ -51,14 +51,35 @@ function interleave(reviews, intros) {
   return out;
 }
 
+function shuffle(arr, rng) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 /**
+ * mode 'due' (default): due cards + up to settings.newPerDay new words for this session.
+ * mode 'practice': every card of every word already introduced in scope, ignoring due dates
+ * and the next-day unlock, shuffled; no new words.
  * @returns {{items: Array<{kind:'intro'|'card', wordId:string, type?:string}>, newToday:number}}
  */
-export function buildQueue({ words, cards, settings, progress, now, scope }) {
+export function buildQueue({ words, cards, settings, progress, now, scope, mode = 'due', rng = Math.random }) {
   const today = todayKey(now);
   const scoped = wordsInScope(words, scope);
   const introduced = progress.newIntroducedDates ?? {};
   const known = progress.known ?? {};
+  const usedToday = progress.newCountByDay?.[today] ?? 0;
+
+  if (mode === 'practice') {
+    const items = [];
+    for (const w of scoped) {
+      if (!introduced[w.id]) continue;
+      for (const t of cardsForWord(w, settings)) items.push({ kind: 'card', wordId: w.id, type: t });
+    }
+    return { items: shuffle(items, rng), newToday: usedToday };
+  }
 
   const reviews = [];
   for (const w of scoped) {
@@ -73,8 +94,8 @@ export function buildQueue({ words, cards, settings, progress, now, scope }) {
   }
   reviews.sort((a, b) => (cards[cardId(a.wordId, a.type)]?.due ?? 0) - (cards[cardId(b.wordId, b.type)]?.due ?? 0));
 
-  const usedToday = progress.newCountByDay?.[today] ?? 0;
-  const room = Math.max(0, (settings.newPerDay ?? 10) - usedToday);
+  // newPerDay is a per-session batch size, not a daily cap: another session brings the next batch.
+  const room = Math.max(0, settings.newPerDay ?? 10);
   const intros = scoped
     .filter((w) => !introduced[w.id] && !known[w.id])
     .slice(0, room)
