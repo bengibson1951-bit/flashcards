@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0984e3" />
+  <title>French Flashcards</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HOME -->
+  <section data-screen="home" class="active">
+    <div class="top-row">
+      <span class="brand">🇫🇷 <span data-i18n="appName"></span></span>
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="en">EN</button>
+        <button data-lang="sv">SV</button>
+      </div>
+    </div>
+
+    <div class="hero card">
+      <div class="hero-emoji" id="hero-emoji">🥐</div>
+      <p class="tagline" data-i18n="tagline"></p>
+      <div class="counters">
+        <div class="counter"><b id="home-due">0</b><span data-i18n="due"></span></div>
+        <div class="counter"><b id="home-new">0</b><span data-i18n="newToday"></span></div>
+        <div class="counter"><b id="home-streak">0</b><span data-i18n="streak"></span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 data-i18n="source"></h3>
+      <div class="source-row">
+        <button class="pill active" data-source="all" data-i18n="source.all"></button>
+        <button class="pill" data-source="unit" data-i18n="source.unit"></button>
+        <button class="pill" data-source="list" data-i18n="source.list"></button>
+      </div>
+      <select id="source-unit" class="select" hidden></select>
+      <select id="source-list" class="select" hidden></select>
+    </div>
+
+    <button class="big-btn sky" id="btn-start" data-i18n="start"></button>
+    <p class="muted center" id="home-empty" hidden></p>
+  </section>
+
+  <!-- STUDY -->
+  <section data-screen="study">
+    <div class="top-row">
+      <button class="chip" id="btn-quit" data-i18n="quit"></button>
+      <div class="progress"><div id="progress-bar"></div></div>
+      <span class="chip" id="remaining"></span>
+    </div>
+
+    <div class="flashcard card" id="flashcard">
+      <div class="fc-kind" id="fc-kind"></div>
+      <div class="fc-front" id="fc-front"></div>
+      <div class="fc-back" id="fc-back" hidden></div>
+      <div class="fc-spell" id="fc-spell" hidden>
+        <input id="spell-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" data-i18n-placeholder="typeFrench" />
+        <div class="accent-keys" id="accent-keys"></div>
+      </div>
+      <button class="speak" id="btn-speak" aria-label="Listen">🔊</button>
+    </div>
+
+    <div class="actions" id="actions"></div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section data-screen="summary">
+    <div class="card center">
+      <div class="hero-emoji">🏆</div>
+      <h2 data-i18n="sessionDone"></h2>
+      <p class="big" id="sum-cards"></p>
+      <p id="sum-new"></p>
+      <p id="sum-acc"></p>
+    </div>
+    <button class="big-btn sky" id="btn-summary-home" data-i18n="backHome"></button>
+  </section>
+
+  <!-- LISTS -->
+  <section data-screen="lists">
+    <h2 data-i18n="lists"></h2>
+    <div id="lists-container"></div>
+    <div class="card" id="list-editor">
+      <h3 data-i18n="newList"></h3>
+      <input id="list-name" type="text" data-i18n-placeholder="listName" />
+      <textarea id="list-text" rows="6" data-i18n-placeholder="pasteHint"></textarea>
+      <button class="big-btn mint" id="btn-list-review" data-i18n="review"></button>
+    </div>
+    <div class="card" id="list-unknown" hidden>
+      <p data-i18n="unknownWords"></p>
+      <div id="unknown-rows"></div>
+      <div class="row">
+        <button class="big-btn grey" id="btn-list-cancel" data-i18n="cancel"></button>
+        <button class="big-btn mint" id="btn-list-save" data-i18n="saveList"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORDS -->
+  <section data-screen="words">
+    <h2 data-i18n="words"></h2>
+    <p class="muted" data-i18n="markKnown"></p>
+    <div id="words-container"></div>
+  </section>
+
+  <!-- STATS -->
+  <section data-screen="stats">
+    <h2 data-i18n="stats"></h2>
+    <div class="card">
+      <div class="counters">
+        <div class="counter"><b id="stat-learned">0</b><span data-i18n="learned"></span></div>
+        <div class="counter"><b id="stat-learning">0</b><span data-i18n="learning"></span></div>
+        <div class="counter"><b id="stat-streak">0</b><span data-i18n="streak"></span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3 data-i18n="forecast"></h3>
+      <div class="forecast" id="forecast"></div>
+    </div>
+    <div class="card">
+      <h3 data-i18n="settings"></h3>
+      <label class="setting"><span data-i18n="newPerDay"></span>
+        <input id="set-newperday" type="number" min="0" max="30" /></label>
+      <p class="muted" data-i18n="cardTypes"></p>
+      <label class="setting"><span data-i18n="type.pic"></span><input type="checkbox" data-type="pic" /></label>
+      <label class="setting"><span data-i18n="type.fr2en"></span><input type="checkbox" data-type="fr2en" /></label>
+      <label class="setting"><span data-i18n="type.en2fr"></span><input type="checkbox" data-type="en2fr" /></label>
+      <label class="setting"><span data-i18n="type.spell"></span><input type="checkbox" data-type="spell" /></label>
+      <label class="setting"><span data-i18n="autoAudio"></span><input type="checkbox" id="set-autoaudio" /></label>
+    </div>
+    <div class="card">
+      <h3 data-i18n="backup"></h3>
+      <div class="row">
+        <button class="big-btn grey" id="btn-export" data-i18n="export"></button>
+        <label class="big-btn grey file-btn"><span data-i18n="import"></span><input id="import-file" type="file" accept="application/json" hidden /></label>
+      </div>
+      <button class="text-btn danger" id="btn-reset" data-i18n="resetAll"></button>
+    </div>
+  </section>
+
+  <nav class="bottom-nav">
+    <button data-nav="home">🏠<span data-i18n="nav.home"></span></button>
+    <button data-nav="lists">📋<span data-i18n="nav.lists"></span></button>
+    <button data-nav="words">📚<span data-i18n="nav.words"></span></button>
+    <button data-nav="stats">📈<span data-i18n="nav.stats"></span></button>
+  </nav>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
