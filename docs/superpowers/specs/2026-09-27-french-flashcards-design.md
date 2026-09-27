@@ -13,7 +13,7 @@ A kid-friendly, Anki-style spaced-repetition flashcard app to help Ben's daughte
 |---|---|
 | Platform | Static PWA (no build step), same pattern as `hangman` / `mathsprint`. Offline, installable, GitHub Pages. |
 | Pictures | Emoji only. Words without a good emoji have no picture (picture card skipped). |
-| Audio | Browser `speechSynthesis`, `fr-FR` voice. French is spoken **automatically** whenever it is shown; 🔊 button replays. |
+| Audio | Pre-generated MP3 per starter word (Replicate TTS) in `audio/`; browser `speechSynthesis` `fr-FR` fallback for custom words. French is spoken **automatically** whenever it is shown; 🔊 button replays. |
 | Grading | Anki-style self-grading: **Again / Hard / Good / Easy**, each button shows its next interval. |
 | Level | Complete beginner; playful look for ~10-year-old. |
 | Articles & accents | Cards show the article (*le chien*). Spelling accepts the word with or without the article; accent-only mistakes = "almost" (graded Hard). |
